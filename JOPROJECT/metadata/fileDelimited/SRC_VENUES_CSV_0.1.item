@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_DmY-gOjiEfCMUZe9ja642Q" name="SRC_VENUES_CSV" dataPackage="_DmZlkOjiEfCMUZe9ja642Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/Bonjour/Documents/M2-MIAGE-ID/Data_warehouse/projet/TP_Donnees_JO_Paris_2024/venues.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_DmZlkOjiEfCMUZe9ja642Q" name="default" dataManager="_DmY-gOjiEfCMUZe9ja642Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_DmZlkejiEfCMUZe9ja642Q" id="_8d__gOjhEfCMUZe9ja642Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZlkujiEfCMUZe9ja642Q" label="venue" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZlk-jiEfCMUZe9ja642Q" label="sports" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZllOjiEfCMUZe9ja642Q" label="date_start" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZllejiEfCMUZe9ja642Q" label="date_end" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZllujiEfCMUZe9ja642Q" label="tag" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZll-jiEfCMUZe9ja642Q" label="url" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZlmOjiEfCMUZe9ja642Q" label="Column6" length="68" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZlmejiEfCMUZe9ja642Q" label="Column7" length="75" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_DmZlmujiEfCMUZe9ja642Q" label="Column8" length="59" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

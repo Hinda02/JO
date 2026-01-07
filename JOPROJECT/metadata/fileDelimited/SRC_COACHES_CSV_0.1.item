@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_G0ZBAOjhEfCMUZe9ja642Q" name="SRC_COACHES_CSV" id="_G0YZ8OjhEfCMUZe9ja642Q" dataPackage="_G0ZBAejhEfCMUZe9ja642Q" Server="Localhost 127.0.0.1" FilePath="C:/Users/Bonjour/Documents/M2-MIAGE-ID/Data_warehouse/projet/TP_Donnees_JO_Paris_2024/coaches.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_G0ZBAejhEfCMUZe9ja642Q" name="default" dataManager="_G0ZBAOjhEfCMUZe9ja642Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_G0ZBAujhEfCMUZe9ja642Q" id="_27PXAOjgEfCMUZe9ja642Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBA-jhEfCMUZe9ja642Q" label="code" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBBOjhEfCMUZe9ja642Q" label="current" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBBejhEfCMUZe9ja642Q" label="name" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBBujhEfCMUZe9ja642Q" label="gender" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBB-jhEfCMUZe9ja642Q" label="function" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBCOjhEfCMUZe9ja642Q" label="category" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBCejhEfCMUZe9ja642Q" label="country_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBCujhEfCMUZe9ja642Q" label="country" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBC-jhEfCMUZe9ja642Q" label="country_long" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBDOjhEfCMUZe9ja642Q" label="disciplines" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBDejhEfCMUZe9ja642Q" label="events" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_G0ZBDujhEfCMUZe9ja642Q" label="birth_date" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
