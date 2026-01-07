@@ -1,0 +1,33 @@
+sport_code,sport_category
+Weightlifting,Power Sports
+Boxing,Power Sports
+Judo,Power Sports
+Karate,Power Sports
+Taekwondo,Power Sports
+Wrestling,Power Sports
+Cycling,Endurance Sports
+Rowing,Endurance Sports
+Triathlon,Endurance Sports
+Athletics,Speed Sports
+Swimming,Speed Sports
+Basketball,Speed Sports
+Handball,Speed Sports
+Hockey,Speed Sports
+Football,Speed Sports
+Rugby,Speed Sports
+Gymnastics,Skill Sports
+Fencing,Skill Sports
+Golf,Skill Sports
+Shooting,Skill Sports
+Archery,Skill Sports
+Table Tennis,Skill Sports
+Badminton,Skill Sports
+Tennis,Skill Sports
+Baseball/Softball,Skill Sports
+Aquatics,Water Sports
+Canoeing,Water Sports
+Sailing,Water Sports
+Surfing,Water Sports
+Skateboarding,Board Sports
+Modern Pentathlon,Combination Sports
+Volleyball,Team Sports
