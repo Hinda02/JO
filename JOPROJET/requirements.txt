@@ -1,0 +1,17 @@
+# Requirements Python pour le projet JO Paris 2024
+# Installation : pip install -r requirements.txt
+
+# Base de données
+psycopg2-binary>=2.9.0    # PostgreSQL adapter
+# OU
+# mysql-connector-python>=8.0.0  # MySQL adapter (alternative)
+
+# Data manipulation
+pandas>=1.5.0
+
+# Utilitaires
+python-dateutil>=2.8.0
+
+# Logging (déjà inclus dans Python standard)
+# datetime (inclus)
+# logging (inclus)
