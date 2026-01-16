@@ -1,0 +1,5211 @@
+{
+  "athletes.csv": {
+    "nom_fichier": "athletes.csv",
+    "timestamp": "2026-01-16T12:28:15.229006",
+    "formats_colonnes": {
+      "code": {
+        "type_detecte": "code_numerique",
+        "exemples": [
+          "1532872",
+          "1532873",
+          "1532874"
+        ],
+        "conformite": null
+      },
+      "current": {
+        "type_detecte": "texte",
+        "exemples": [
+          "True",
+          "True",
+          "True"
+        ],
+        "conformite": null
+      },
+      "name": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ALEKSANYAN Artur",
+          "AMOYAN Malkhas",
+          "GALSTYAN Slavik"
+        ],
+        "conformite": null
+      },
+      "name_short": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ALEKSANYAN A",
+          "AMOYAN M",
+          "GALSTYAN S"
+        ],
+        "conformite": null
+      },
+      "name_tv": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Artur ALEKSANYAN",
+          "Malkhas AMOYAN",
+          "Slavik GALSTYAN"
+        ],
+        "conformite": null
+      },
+      "gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Male",
+          "Male",
+          "Male"
+        ],
+        "conformite": null
+      },
+      "function": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Athlete",
+          "Athlete",
+          "Athlete"
+        ],
+        "conformite": null
+      },
+      "country_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "ARM",
+          "ARM",
+          "ARM"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenia",
+          "Armenia",
+          "Armenia"
+        ],
+        "conformite": null
+      },
+      "country_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenia",
+          "Armenia",
+          "Armenia"
+        ],
+        "conformite": null
+      },
+      "nationality": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenia",
+          "Armenia",
+          "Armenia"
+        ],
+        "conformite": null
+      },
+      "nationality_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenia",
+          "Armenia",
+          "Armenia"
+        ],
+        "conformite": null
+      },
+      "nationality_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "ARM",
+          "ARM",
+          "ARM"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "height": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "0.0",
+          "0.0",
+          "0.0"
+        ],
+        "conformite": null
+      },
+      "weight": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "0.0",
+          "0.0",
+          "0.0"
+        ],
+        "conformite": null
+      },
+      "disciplines": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['Wrestling']",
+          "['Wrestling']",
+          "['Wrestling']"
+        ],
+        "conformite": null
+      },
+      "events": {
+        "type_detecte": "texte",
+        "exemples": [
+          "[\"Men's Greco-Roman 97kg\"]",
+          "[\"Men's Greco-Roman 77kg\"]",
+          "[\"Men's Greco-Roman 67kg\"]"
+        ],
+        "conformite": null
+      },
+      "birth_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "1991-10-21",
+          "1999-01-22",
+          "1996-12-21"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "birth_place": {
+        "type_detecte": "texte",
+        "exemples": [
+          "GYUMRI",
+          "YEREVAN",
+          "MASIS"
+        ],
+        "conformite": null
+      },
+      "birth_country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenia",
+          "Armenia",
+          "Armenia"
+        ],
+        "conformite": null
+      },
+      "residence_place": {
+        "type_detecte": "texte",
+        "exemples": [
+          "GYUMRI",
+          "YEREVAN",
+          "YEREVAN"
+        ],
+        "conformite": null
+      },
+      "residence_country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenia",
+          "Armenia",
+          "Armenia"
+        ],
+        "conformite": null
+      },
+      "nickname": {
+        "type_detecte": "texte",
+        "exemples": [
+          "White Bear",
+          "Bad Boy",
+          "Earlier in her career she was nicknamed the 'Poor Olympian' due to the financial challenges she faced"
+        ],
+        "conformite": null
+      },
+      "hobbies": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Playing and watching football",
+          "Music",
+          "Running, watching movies, football, chatting with friends"
+        ],
+        "conformite": null
+      },
+      "occupation": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Athlete",
+          "Athlete",
+          "Athlete"
+        ],
+        "conformite": null
+      },
+      "education": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Graduated from Shirak State University (Gyumri, ARM)",
+          "Graduated with a Master's degree from the Armenian State Institute of Physical Culture and Sport (2023)",
+          "Studied at the Armenian State Institute of Physical Culture and Sport (Yerevan, ARM)"
+        ],
+        "conformite": null
+      },
+      "family": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Father, Gevorg Aleksanyan",
+          "Wife, Diana (married October 2022). Daughter, Marias (born 2023)",
+          "Wife, Sona (married November 2023)"
+        ],
+        "conformite": null
+      },
+      "lang": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Armenian, English, Russian",
+          "Armenian",
+          "Armenian"
+        ],
+        "conformite": null
+      },
+      "coach": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Gevorg Aleksanyan (ARM), father",
+          "Personal: Martin Alekhanyan (ARM).<br>National: Armen Babalaryan (ARM)",
+          "National: Habetnak Kurghinyan"
+        ],
+        "conformite": null
+      },
+      "reason": {
+        "type_detecte": "texte",
+        "exemples": [
+          "He followed his father and his uncle into the sport",
+          "While doing karate he noticed wrestlers training and decided to give it a try. He also tried judo but his father, a former wrestler, did not allow him to do both, so he chose wrestling. (sport.mediamax.am, 10 July 2017)",
+          "“My family did not like wrestling very much. At first I wanted to do boxing but my older friends advised me to go to wrestling training, and after a week, I started to like the sport.” (myInfo)"
+        ],
+        "conformite": null
+      },
+      "hero": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Footballer Zinedine Zidane (FRA), World Cup winner (1998) and European champion (2000) with France, won the Champions League as a player and three times as a manager with Real Madrid, three-time FIFA World Player of the Year",
+          "Wrestler Armen Nazaryan (ARM, BUL), two-time Olympic champion (1996, 2000) and 2004 bronze medallist. Eight-time world championship medallist (three gold, two silver, three bronze)",
+          "Race walker Luis Fernando Lopez (COL), four-time Olympian (2004, 2008, 2012, 2016), 2011 world champion (20km walk)"
+        ],
+        "conformite": null
+      },
+      "influence": {
+        "type_detecte": "texte",
+        "exemples": [
+          "His father, Gevorg Aleksanyan",
+          "\"My coach Luke Preston. We've been a team for the last 12 years.\" (Athlete, 25 Jun 2024)",
+          "Momodou Lamin Kujabi, a former international athlete from The Gambia who was once his physical education teacher"
+        ],
+        "conformite": null
+      },
+      "philosophy": {
+        "type_detecte": "texte",
+        "exemples": [
+          "\"Wrestling is my life.\" (mediamax.am. 18 May 2016)",
+          "\"To become a good athlete, you first have to be a good person.\" (ankakh.com, 6 Oct 2018)",
+          "“Nothing is impossible, set goals in front of you, fight and achieve it.” (Instagram, 13 May 2023)"
+        ],
+        "conformite": null
+      },
+      "sporting_relatives": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Uncle, Roman Amoyan (wrestling), 2008 Olympic bronze medallist and two-time European champion in Greco-Roman",
+          "Uncle, Salvador \"Chava\" Sabrino (diving), finished 11th in the 10m platform event at the 1980 Olympic Games and is head coach for the Australian national team",
+          "Partner, Iker Casas (taekwondo), won a bronze medal at the 2018 Central American and Caribbean Games (63kg) and a silver at the 2021 Pan American Championships (68kg)"
+        ],
+        "conformite": null
+      },
+      "ritual": {
+        "type_detecte": "texte",
+        "exemples": [
+          "In competition she wears a ring or earrings her family gave her",
+          "When she is preparing for a competition, applying her makeup and combing her hair, she watches the film Hercules.  \"Once I’m ready I listen to music that makes me dance a little.” (intlgymnast.com)",
+          "She is a Buddhist"
+        ],
+        "conformite": null
+      },
+      "other_sports": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Competed in marathon swimming at London 2012. Finished 20th in the 10km. She also competed in the Marathon Swimming World Cup circuit and at multiple world championships",
+          "He was 2019 sambo world champion at 82kg (held in Cheongju, Republic of Korea)",
+          "Football: Plays as a striker for the Malawi national team. Won the 2023 COSAFA Women's Championship final"
+        ],
+        "conformite": null
+      }
+    },
+    "validation_urls": {},
+    "validation_emails": {},
+    "formats_dates": {
+      "birth_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 0,
+          "Date seule": 100,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "Date seule": "1991-10-21"
+        },
+        "nb_parsable": 11113,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {
+      "country_code": {
+        "total": 11113,
+        "valeurs_uniques": 206,
+        "longueurs": {
+          "3": 11113
+        },
+        "casse": {
+          "majuscules": 11113,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 11113,
+        "top_valeurs": {
+          "USA": 619,
+          "FRA": 601,
+          "AUS": 475,
+          "GER": 457,
+          "JPN": 431,
+          "ESP": 401,
+          "CHN": 398,
+          "ITA": 397,
+          "GBR": 343,
+          "CAN": 332
+        }
+      },
+      "nationality": {
+        "total": 11110,
+        "valeurs_uniques": 197,
+        "longueurs": {
+          "7": 2377,
+          "6": 2322,
+          "5": 2282,
+          "13": 1073,
+          "9": 817,
+          "11": 722,
+          "8": 593,
+          "10": 322,
+          "4": 179,
+          "12": 167,
+          "18": 74,
+          "14": 64,
+          "19": 51,
+          "16": 45,
+          "20": 8,
+          "15": 8,
+          "17": 6
+        },
+        "casse": {
+          "majuscules": 0,
+          "minuscules": 0,
+          "mixte": 11110
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 0,
+        "top_valeurs": {
+          "United States": 696,
+          "France": 607,
+          "Australia": 476,
+          "Germany": 457,
+          "Japan": 431,
+          "Spain": 403,
+          "China": 398,
+          "Italy": 397,
+          "Great Britain": 357,
+          "Canada": 336
+        }
+      },
+      "nationality_long": {
+        "total": 11110,
+        "valeurs_uniques": 197,
+        "longueurs": {
+          "6": 2322,
+          "7": 2318,
+          "5": 1726,
+          "9": 803,
+          "24": 755,
+          "11": 705,
+          "8": 579,
+          "26": 398,
+          "13": 377,
+          "10": 319,
+          "4": 179,
+          "12": 167,
+          "17": 153,
+          "18": 71,
+          "14": 60,
+          "19": 48,
+          "16": 45,
+          "20": 24,
+          "37": 14,
+          "32": 11,
+          "15": 8,
+          "27": 7,
+          "21": 6,
+          "22": 5,
+          "34": 4,
+          "30": 3,
+          "29": 3
+        },
+        "casse": {
+          "majuscules": 0,
+          "minuscules": 0,
+          "mixte": 11110
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 0,
+        "top_valeurs": {
+          "United States of America": 696,
+          "France": 607,
+          "Australia": 476,
+          "Germany": 457,
+          "Japan": 431,
+          "Spain": 403,
+          "People's Republic of China": 398,
+          "Italy": 397,
+          "Great Britain": 357,
+          "Canada": 336
+        }
+      },
+      "nationality_code": {
+        "total": 11110,
+        "valeurs_uniques": 197,
+        "longueurs": {
+          "3": 11110
+        },
+        "casse": {
+          "majuscules": 11110,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 11110,
+        "top_valeurs": {
+          "USA": 696,
+          "FRA": 607,
+          "AUS": 476,
+          "GER": 457,
+          "JPN": 431,
+          "ESP": 403,
+          "CHN": 398,
+          "ITA": 397,
+          "GBR": 357,
+          "CAN": 336
+        }
+      }
+    },
+    "coherence_casse": {
+      "name": {
+        "total": 11113,
+        "majuscules": 105,
+        "minuscules": 0,
+        "title_case": 1,
+        "mixte": 11007,
+        "taux_coherence": 0.944839377305858,
+        "incoherences": []
+      },
+      "name_tv": {
+        "total": 11110,
+        "majuscules": 416,
+        "minuscules": 0,
+        "title_case": 3,
+        "mixte": 10691,
+        "taux_coherence": 3.744374437443744,
+        "incoherences": []
+      },
+      "country_long": {
+        "total": 11113,
+        "majuscules": 32,
+        "minuscules": 0,
+        "title_case": 9757,
+        "mixte": 1324,
+        "taux_coherence": 87.79807432736435,
+        "incoherences": []
+      },
+      "nationality_long": {
+        "total": 11110,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 9700,
+        "mixte": 1410,
+        "taux_coherence": 87.3087308730873,
+        "incoherences": []
+      },
+      "events": {
+        "total": 11113,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 3603,
+        "mixte": 7510,
+        "taux_coherence": 32.421488346981015,
+        "incoherences": []
+      },
+      "birth_date": {
+        "total": 11113,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 11113,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "nickname": {
+        "total": 2966,
+        "majuscules": 50,
+        "minuscules": 2,
+        "title_case": 2440,
+        "mixte": 474,
+        "taux_coherence": 82.2656776803776,
+        "incoherences": [
+          "Mélange majuscules/minuscules"
+        ]
+      },
+      "hobbies": {
+        "total": 4207,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 550,
+        "mixte": 3657,
+        "taux_coherence": 13.073449013548846,
+        "incoherences": []
+      },
+      "occupation": {
+        "total": 9584,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 6914,
+        "mixte": 2670,
+        "taux_coherence": 72.14106844741235,
+        "incoherences": []
+      },
+      "education": {
+        "total": 5538,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 159,
+        "mixte": 5379,
+        "taux_coherence": 2.8710725893824485,
+        "incoherences": []
+      },
+      "family": {
+        "total": 5561,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 2487,
+        "mixte": 3074,
+        "taux_coherence": 44.72217227117425,
+        "incoherences": []
+      },
+      "coach": {
+        "total": 8222,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 569,
+        "mixte": 7653,
+        "taux_coherence": 6.920457309657017,
+        "incoherences": []
+      },
+      "reason": {
+        "total": 5846,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 5846,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "hero": {
+        "total": 3315,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 6,
+        "mixte": 3309,
+        "taux_coherence": 0.18099547511312217,
+        "incoherences": []
+      },
+      "influence": {
+        "total": 2155,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 117,
+        "mixte": 2038,
+        "taux_coherence": 5.4292343387471,
+        "incoherences": []
+      },
+      "philosophy": {
+        "total": 2783,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 7,
+        "mixte": 2776,
+        "taux_coherence": 0.25152712899748475,
+        "incoherences": []
+      },
+      "sporting_relatives": {
+        "total": 2518,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 2518,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "ritual": {
+        "total": 857,
+        "majuscules": 0,
+        "minuscules": 1,
+        "title_case": 3,
+        "mixte": 853,
+        "taux_coherence": 0.3500583430571762,
+        "incoherences": []
+      },
+      "other_sports": {
+        "total": 1060,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 16,
+        "mixte": 1044,
+        "taux_coherence": 1.509433962264151,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "name": {
+        "accents": 0,
+        "apostrophes": 39,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "name_short": {
+        "accents": 0,
+        "apostrophes": 32,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "name_tv": {
+        "accents": 0,
+        "apostrophes": 39,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country": {
+        "accents": 114,
+        "apostrophes": 13,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country_long": {
+        "accents": 114,
+        "apostrophes": 429,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "nationality": {
+        "accents": 113,
+        "apostrophes": 13,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "nationality_long": {
+        "accents": 113,
+        "apostrophes": 429,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "disciplines": {
+        "accents": 0,
+        "apostrophes": 11110,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "events": {
+        "accents": 87,
+        "apostrophes": 11111,
+        "guillemets": 6717,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "birth_place": {
+        "accents": 0,
+        "apostrophes": 23,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "birth_country": {
+        "accents": 89,
+        "apostrophes": 13,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "residence_place": {
+        "accents": 0,
+        "apostrophes": 19,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "residence_country": {
+        "accents": 78,
+        "apostrophes": 0,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "nickname": {
+        "accents": 2,
+        "apostrophes": 67,
+        "guillemets": 66,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "hobbies": {
+        "accents": 0,
+        "apostrophes": 64,
+        "guillemets": 94,
+        "tirets_speciaux": 1,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "occupation": {
+        "accents": 1,
+        "apostrophes": 22,
+        "guillemets": 5,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "education": {
+        "accents": 17,
+        "apostrophes": 1128,
+        "guillemets": 6,
+        "tirets_speciaux": 8,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "family": {
+        "accents": 31,
+        "apostrophes": 27,
+        "guillemets": 16,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "coach": {
+        "accents": 67,
+        "apostrophes": 31,
+        "guillemets": 12,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "reason": {
+        "accents": 8,
+        "apostrophes": 1129,
+        "guillemets": 2045,
+        "tirets_speciaux": 4,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "hero": {
+        "accents": 6,
+        "apostrophes": 346,
+        "guillemets": 181,
+        "tirets_speciaux": 12,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "influence": {
+        "accents": 2,
+        "apostrophes": 149,
+        "guillemets": 572,
+        "tirets_speciaux": 1,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "philosophy": {
+        "accents": 1,
+        "apostrophes": 702,
+        "guillemets": 2499,
+        "tirets_speciaux": 6,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "sporting_relatives": {
+        "accents": 14,
+        "apostrophes": 292,
+        "guillemets": 39,
+        "tirets_speciaux": 2,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "ritual": {
+        "accents": 1,
+        "apostrophes": 122,
+        "guillemets": 276,
+        "tirets_speciaux": 2,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "other_sports": {
+        "accents": 0,
+        "apostrophes": 98,
+        "guillemets": 18,
+        "tirets_speciaux": 1,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "code": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1532872.0,
+        "max": 9460001.0,
+        "amplitude": 7927129.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Code numérique"
+        ]
+      },
+      "height": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 0.0,
+        "max": 222.0,
+        "amplitude": 222.0,
+        "nb_zeros": 6032,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Contient des zéros suspects"
+        ]
+      },
+      "weight": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 0.0,
+        "max": 113.0,
+        "amplitude": 113.0,
+        "nb_zeros": 10792,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Contient des zéros suspects"
+        ]
+      }
+    },
+    "structures_json": {
+      "disciplines": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['Wrestling']",
+          "['Wrestling']",
+          "['Wrestling']"
+        ]
+      },
+      "events": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 1,
+        "nb_non_parsable": 9,
+        "exemples": [
+          "['Men -60 kg']"
+        ]
+      }
+    },
+    "espacements": {
+      "name_tv": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 2,
+        "tabulations": 0
+      },
+      "nickname": {
+        "espaces_debut": 1,
+        "espaces_fin": 0,
+        "espaces_multiples": 2,
+        "tabulations": 0
+      },
+      "hobbies": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 7,
+        "tabulations": 0
+      },
+      "education": {
+        "espaces_debut": 1,
+        "espaces_fin": 0,
+        "espaces_multiples": 23,
+        "tabulations": 0
+      },
+      "family": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 22,
+        "tabulations": 0
+      },
+      "coach": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 26,
+        "tabulations": 0
+      },
+      "reason": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 55,
+        "tabulations": 0
+      },
+      "hero": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 99,
+        "tabulations": 0
+      },
+      "influence": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 24,
+        "tabulations": 0
+      },
+      "philosophy": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 38,
+        "tabulations": 0
+      },
+      "sporting_relatives": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 29,
+        "tabulations": 0
+      },
+      "ritual": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 9,
+        "tabulations": 0
+      },
+      "other_sports": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 7,
+        "tabulations": 0
+      }
+    },
+    "longueurs": {
+      "name": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 14.708179609466391,
+        "mediane": 14.0,
+        "nb_vides": 0
+      },
+      "name_short": {
+        "min": 3,
+        "max": 18,
+        "moyenne": 9.26021602160216,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "name_tv": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 14.463276327632764,
+        "mediane": 14.0,
+        "nb_vides": 0
+      },
+      "gender": {
+        "min": 4,
+        "max": 6,
+        "moyenne": 4.981733105372086,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "function": {
+        "min": 7,
+        "max": 17,
+        "moyenne": 7.170071087915055,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "country": {
+        "min": 3,
+        "max": 20,
+        "moyenne": 7.69675155223612,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_long": {
+        "min": 3,
+        "max": 37,
+        "moyenne": 9.452353099973005,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "nationality": {
+        "min": 4,
+        "max": 20,
+        "moyenne": 7.759495949594959,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "nationality_long": {
+        "min": 4,
+        "max": 37,
+        "moyenne": 9.562556255625562,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "nationality_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "disciplines": {
+        "min": 8,
+        "max": 41,
+        "moyenne": 13.350310447223972,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "events": {
+        "min": 7,
+        "max": 225,
+        "moyenne": 25.054080806262935,
+        "mediane": 19.0,
+        "nb_vides": 0
+      },
+      "birth_date": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      },
+      "birth_place": {
+        "min": 2,
+        "max": 44,
+        "moyenne": 9.125014323364272,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "birth_country": {
+        "min": 4,
+        "max": 20,
+        "moyenne": 7.900369393139842,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "residence_place": {
+        "min": 2,
+        "max": 37,
+        "moyenne": 8.959435626102293,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "residence_country": {
+        "min": 4,
+        "max": 20,
+        "moyenne": 8.087837837837839,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "nickname": {
+        "min": 1,
+        "max": 369,
+        "moyenne": 15.81355360755226,
+        "mediane": 6.0,
+        "nb_vides": 0
+      },
+      "hobbies": {
+        "min": 3,
+        "max": 540,
+        "moyenne": 46.128119800332776,
+        "mediane": 34.0,
+        "nb_vides": 0
+      },
+      "occupation": {
+        "min": 4,
+        "max": 290,
+        "moyenne": 12.421431552587647,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "education": {
+        "min": 6,
+        "max": 384,
+        "moyenne": 83.55922715781871,
+        "mediane": 71.0,
+        "nb_vides": 0
+      },
+      "family": {
+        "min": 4,
+        "max": 322,
+        "moyenne": 52.189354432655996,
+        "mediane": 45.0,
+        "nb_vides": 0
+      },
+      "lang": {
+        "min": 1,
+        "max": 67,
+        "moyenne": 11.447147571900047,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "coach": {
+        "min": 5,
+        "max": 349,
+        "moyenne": 40.86341522743858,
+        "mediane": 31.0,
+        "nb_vides": 0
+      },
+      "reason": {
+        "min": 10,
+        "max": 972,
+        "moyenne": 188.93619568936023,
+        "mediane": 138.0,
+        "nb_vides": 0
+      },
+      "hero": {
+        "min": 7,
+        "max": 984,
+        "moyenne": 242.18069381598792,
+        "mediane": 189.0,
+        "nb_vides": 0
+      },
+      "influence": {
+        "min": 5,
+        "max": 756,
+        "moyenne": 81.46728538283062,
+        "mediane": 32.0,
+        "nb_vides": 0
+      },
+      "philosophy": {
+        "min": 1,
+        "max": 954,
+        "moyenne": 119.84584980237155,
+        "mediane": 86.0,
+        "nb_vides": 0
+      },
+      "sporting_relatives": {
+        "min": 22,
+        "max": 981,
+        "moyenne": 181.16322478157267,
+        "mediane": 138.5,
+        "nb_vides": 0
+      },
+      "ritual": {
+        "min": 7,
+        "max": 857,
+        "moyenne": 124.78646441073512,
+        "mediane": 86.0,
+        "nb_vides": 0
+      },
+      "other_sports": {
+        "min": 6,
+        "max": 655,
+        "moyenne": 109.4188679245283,
+        "mediane": 86.5,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "gender": {
+        "valeurs": {
+          "Male": 5658,
+          "Female": 5455
+        },
+        "normalise": true
+      },
+      "name": {
+        "format_nom_prenom": 0,
+        "format_standard": 11113,
+        "suggestion": "Format standard"
+      }
+    }
+  },
+  "coaches.csv": {
+    "nom_fichier": "coaches.csv",
+    "timestamp": "2026-01-16T12:28:16.434259",
+    "formats_colonnes": {
+      "code": {
+        "type_detecte": "code_numerique",
+        "exemples": [
+          "1533246",
+          "1535775",
+          "1536055"
+        ],
+        "conformite": null
+      },
+      "current": {
+        "type_detecte": "texte",
+        "exemples": [
+          "True",
+          "True",
+          "True"
+        ],
+        "conformite": null
+      },
+      "name": {
+        "type_detecte": "texte",
+        "exemples": [
+          "PEDRERO Ofelia",
+          "RADHI SHENAISHIL",
+          "AFLAKIKHAMSEH Majid"
+        ],
+        "conformite": null
+      },
+      "gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Female",
+          "Male",
+          "Male"
+        ],
+        "conformite": null
+      },
+      "function": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Coach",
+          "Head Coach",
+          "Coach"
+        ],
+        "conformite": null
+      },
+      "category": {
+        "type_detecte": "texte",
+        "exemples": [
+          "C",
+          "C",
+          "C"
+        ],
+        "conformite": null
+      },
+      "country_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "MEX",
+          "IRQ",
+          "IRI"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Mexico",
+          "Iraq",
+          "IR Iran"
+        ],
+        "conformite": null
+      },
+      "country_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Mexico",
+          "Iraq",
+          "Islamic Republic of Iran"
+        ],
+        "conformite": null
+      },
+      "disciplines": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Artistic Swimming",
+          "Football",
+          "Taekwondo"
+        ],
+        "conformite": null
+      },
+      "events": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Team",
+          "Men",
+          "Team"
+        ],
+        "conformite": null
+      },
+      "birth_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "1988-03-28",
+          "1965-07-01",
+          "1973-08-26"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      }
+    },
+    "validation_urls": {},
+    "validation_emails": {},
+    "formats_dates": {
+      "birth_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 0,
+          "Date seule": 100,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "Date seule": "1988-03-28"
+        },
+        "nb_parsable": 936,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {
+      "country_code": {
+        "total": 974,
+        "valeurs_uniques": 98,
+        "longueurs": {
+          "3": 974
+        },
+        "casse": {
+          "majuscules": 974,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 974,
+        "top_valeurs": {
+          "ESP": 68,
+          "USA": 56,
+          "FRA": 55,
+          "CHN": 45,
+          "JPN": 43,
+          "AUS": 40,
+          "GER": 37,
+          "BRA": 35,
+          "CAN": 34,
+          "GBR": 32
+        }
+      }
+    },
+    "coherence_casse": {
+      "name": {
+        "total": 974,
+        "majuscules": 3,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 971,
+        "taux_coherence": 0.3080082135523614,
+        "incoherences": []
+      },
+      "country_long": {
+        "total": 974,
+        "majuscules": 3,
+        "minuscules": 0,
+        "title_case": 846,
+        "mixte": 125,
+        "taux_coherence": 86.85831622176592,
+        "incoherences": []
+      },
+      "birth_date": {
+        "total": 936,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 936,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "name": {
+        "accents": 0,
+        "apostrophes": 2,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country": {
+        "accents": 10,
+        "apostrophes": 2,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country_long": {
+        "accents": 10,
+        "apostrophes": 49,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "code": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1533246.0,
+        "max": 9450042.0,
+        "amplitude": 7916796.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Code numérique"
+        ]
+      }
+    },
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "name": {
+        "min": 5,
+        "max": 35,
+        "moyenne": 15.0,
+        "mediane": 14.0,
+        "nb_vides": 0
+      },
+      "gender": {
+        "min": 4,
+        "max": 6,
+        "moyenne": 4.474332648870637,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "function": {
+        "min": 5,
+        "max": 19,
+        "moyenne": 9.061601642710473,
+        "mediane": 5.0,
+        "nb_vides": 0
+      },
+      "category": {
+        "min": 1,
+        "max": 1,
+        "moyenne": 1.0,
+        "mediane": 1.0,
+        "nb_vides": 0
+      },
+      "country_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "country": {
+        "min": 3,
+        "max": 18,
+        "moyenne": 7.497946611909651,
+        "mediane": 6.0,
+        "nb_vides": 0
+      },
+      "country_long": {
+        "min": 3,
+        "max": 37,
+        "moyenne": 9.566735112936344,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "disciplines": {
+        "min": 6,
+        "max": 19,
+        "moyenne": 11.906570841889117,
+        "mediane": 10.0,
+        "nb_vides": 0
+      },
+      "events": {
+        "min": 3,
+        "max": 5,
+        "moyenne": 3.988038277511962,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "birth_date": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "gender": {
+        "valeurs": {
+          "Male": 743,
+          "Female": 231
+        },
+        "normalise": true
+      },
+      "name": {
+        "format_nom_prenom": 0,
+        "format_standard": 974,
+        "suggestion": "Format standard"
+      }
+    }
+  },
+  "events.csv": {
+    "nom_fichier": "events.csv",
+    "timestamp": "2026-01-16T12:28:16.504875",
+    "formats_colonnes": {
+      "event": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Men's Individual",
+          "Women's Individual",
+          "Men's Team"
+        ],
+        "conformite": null
+      },
+      "tag": {
+        "type_detecte": "tag_slug",
+        "exemples": [
+          "archery",
+          "archery",
+          "archery"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "sport": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Archery",
+          "Archery",
+          "Archery"
+        ],
+        "conformite": null
+      },
+      "sport_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ARC",
+          "ARC",
+          "ARC"
+        ],
+        "conformite": null
+      },
+      "sport_url": {
+        "type_detecte": "url",
+        "exemples": [
+          "https://olympics.com/en/paris-2024/sports/archery",
+          "https://olympics.com/en/paris-2024/sports/archery",
+          "https://olympics.com/en/paris-2024/sports/archery"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      }
+    },
+    "validation_urls": {
+      "sport_url": {
+        "total": 329,
+        "valides": 329,
+        "invalides": 0,
+        "taux_validite": 100.0,
+        "schemas": {
+          "https": 329
+        },
+        "top_domaines": {
+          "olympics.com": 329
+        },
+        "problemes": []
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {},
+    "codes_iso": {},
+    "coherence_casse": {
+      "event": {
+        "total": 329,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 50,
+        "mixte": 279,
+        "taux_coherence": 15.19756838905775,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "event": {
+        "accents": 4,
+        "apostrophes": 245,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {},
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "event": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 16.252279635258358,
+        "mediane": 16.0,
+        "nb_vides": 0
+      },
+      "tag": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 10.033434650455927,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "sport": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 9.650455927051672,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "sport_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "sport_url": {
+        "min": 46,
+        "max": 63,
+        "moyenne": 52.03343465045592,
+        "mediane": 51.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {}
+  },
+  "medallists.csv": {
+    "nom_fichier": "medallists.csv",
+    "timestamp": "2026-01-16T12:28:16.537692",
+    "formats_colonnes": {
+      "medal_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-27",
+          "2024-07-27",
+          "2024-07-27"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "medal_type": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Gold Medal",
+          "Silver Medal",
+          "Bronze Medal"
+        ],
+        "conformite": null
+      },
+      "medal_code": {
+        "type_detecte": "code_numerique",
+        "exemples": [
+          "1.0",
+          "2.0",
+          "3.0"
+        ],
+        "conformite": null
+      },
+      "name": {
+        "type_detecte": "texte",
+        "exemples": [
+          "EVENEPOEL Remco",
+          "GANNA Filippo",
+          "van AERT Wout"
+        ],
+        "conformite": null
+      },
+      "gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Male",
+          "Male",
+          "Male"
+        ],
+        "conformite": null
+      },
+      "country_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "BEL",
+          "ITA",
+          "BEL"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Belgium",
+          "Italy",
+          "Belgium"
+        ],
+        "conformite": null
+      },
+      "country_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Belgium",
+          "Italy",
+          "Belgium"
+        ],
+        "conformite": null
+      },
+      "nationality_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "BEL",
+          "ITA",
+          "BEL"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "nationality": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Belgium",
+          "Italy",
+          "Belgium"
+        ],
+        "conformite": null
+      },
+      "nationality_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Belgium",
+          "Italy",
+          "Belgium"
+        ],
+        "conformite": null
+      },
+      "team": {
+        "type_detecte": "texte",
+        "exemples": [
+          "People's Republic of China",
+          "People's Republic of China",
+          "United States of America"
+        ],
+        "conformite": null
+      },
+      "team_gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "W",
+          "W",
+          "W"
+        ],
+        "conformite": null
+      },
+      "discipline": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Cycling Road",
+          "Cycling Road",
+          "Cycling Road"
+        ],
+        "conformite": null
+      },
+      "event": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Men's Individual Time Trial",
+          "Men's Individual Time Trial",
+          "Men's Individual Time Trial"
+        ],
+        "conformite": null
+      },
+      "event_type": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ATH",
+          "ATH",
+          "ATH"
+        ],
+        "conformite": null
+      },
+      "url_event": {
+        "type_detecte": "url",
+        "exemples": [
+          "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+          "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+          "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--"
+        ],
+        "conformite": {
+          "nb_valides": 0,
+          "nb_invalides": 100,
+          "taux_conformite": 0.0,
+          "exemples_invalides": [
+            "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/women-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/women-s-individual-time-trial/fnl-000100--"
+          ]
+        }
+      },
+      "birth_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "2000-01-25",
+          "1996-07-25",
+          "1994-09-15"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "code_athlete": {
+        "type_detecte": "code_numerique",
+        "exemples": [
+          "1903136",
+          "1923520",
+          "1903147"
+        ],
+        "conformite": null
+      },
+      "code_team": {
+        "type_detecte": "texte",
+        "exemples": [
+          "DIVW3MTEAM2-CHN01",
+          "DIVW3MTEAM2-CHN01",
+          "DIVW3MTEAM2-USA01"
+        ],
+        "conformite": null
+      },
+      "is_medallist": {
+        "type_detecte": "texte",
+        "exemples": [
+          "True",
+          "True",
+          "True"
+        ],
+        "conformite": null
+      }
+    },
+    "validation_urls": {
+      "url_event": {
+        "total": 2294,
+        "valides": 0,
+        "invalides": 2294,
+        "taux_validite": 0.0,
+        "schemas": {},
+        "top_domaines": {},
+        "problemes": [
+          "Format invalide: /en/paris-2024/results/cycling-road/men-s-individu",
+          "Format invalide: /en/paris-2024/results/cycling-road/men-s-individu",
+          "Format invalide: /en/paris-2024/results/cycling-road/men-s-individu",
+          "Format invalide: /en/paris-2024/results/cycling-road/women-s-indivi",
+          "Format invalide: /en/paris-2024/results/cycling-road/women-s-indivi"
+        ]
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {
+      "medal_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 0,
+          "Date seule": 100,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "Date seule": "2024-07-27"
+        },
+        "nb_parsable": 2315,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      },
+      "birth_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 0,
+          "Date seule": 100,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "Date seule": "2000-01-25"
+        },
+        "nb_parsable": 2315,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {
+      "country_code": {
+        "total": 2315,
+        "valeurs_uniques": 92,
+        "longueurs": {
+          "3": 2315
+        },
+        "casse": {
+          "majuscules": 2315,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 2315,
+        "top_valeurs": {
+          "USA": 330,
+          "FRA": 187,
+          "CHN": 168,
+          "GBR": 162,
+          "AUS": 123,
+          "NED": 118,
+          "GER": 113,
+          "ITA": 88,
+          "ESP": 83,
+          "JPN": 82
+        }
+      },
+      "nationality_code": {
+        "total": 2314,
+        "valeurs_uniques": 92,
+        "longueurs": {
+          "3": 2314
+        },
+        "casse": {
+          "majuscules": 2314,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 2314,
+        "top_valeurs": {
+          "USA": 332,
+          "FRA": 187,
+          "CHN": 168,
+          "GBR": 162,
+          "AUS": 123,
+          "NED": 117,
+          "GER": 113,
+          "ITA": 88,
+          "ESP": 83,
+          "JPN": 82
+        }
+      },
+      "nationality": {
+        "total": 2314,
+        "valeurs_uniques": 92,
+        "longueurs": {
+          "5": 518,
+          "13": 495,
+          "6": 444,
+          "7": 361,
+          "11": 184,
+          "9": 163,
+          "8": 44,
+          "10": 38,
+          "4": 24,
+          "12": 22,
+          "14": 8,
+          "18": 5,
+          "16": 4,
+          "19": 4
+        },
+        "casse": {
+          "majuscules": 0,
+          "minuscules": 0,
+          "mixte": 2314
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 0,
+        "top_valeurs": {
+          "United States": 332,
+          "France": 187,
+          "China": 168,
+          "Great Britain": 162,
+          "Australia": 123,
+          "Netherlands": 117,
+          "Germany": 113,
+          "Italy": 88,
+          "Spain": 83,
+          "Japan": 82
+        }
+      },
+      "nationality_long": {
+        "total": 2314,
+        "valeurs_uniques": 92,
+        "longueurs": {
+          "6": 444,
+          "7": 349,
+          "24": 344,
+          "5": 292,
+          "11": 184,
+          "26": 168,
+          "13": 163,
+          "9": 155,
+          "17": 58,
+          "8": 44,
+          "10": 38,
+          "4": 24,
+          "12": 22,
+          "37": 8,
+          "14": 8,
+          "18": 5,
+          "16": 4,
+          "19": 4
+        },
+        "casse": {
+          "majuscules": 0,
+          "minuscules": 0,
+          "mixte": 2314
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 0,
+        "top_valeurs": {
+          "United States of America": 332,
+          "France": 187,
+          "People's Republic of China": 168,
+          "Great Britain": 162,
+          "Australia": 123,
+          "Netherlands": 117,
+          "Germany": 113,
+          "Italy": 88,
+          "Spain": 83,
+          "Japan": 82
+        }
+      }
+    },
+    "coherence_casse": {
+      "medal_date": {
+        "total": 2315,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 2315,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "name": {
+        "total": 2315,
+        "majuscules": 27,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 2288,
+        "taux_coherence": 1.1663066954643628,
+        "incoherences": []
+      },
+      "country_long": {
+        "total": 2315,
+        "majuscules": 6,
+        "minuscules": 0,
+        "title_case": 1728,
+        "mixte": 581,
+        "taux_coherence": 74.64362850971922,
+        "incoherences": []
+      },
+      "nationality_long": {
+        "total": 2314,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 1731,
+        "mixte": 583,
+        "taux_coherence": 74.80553154710458,
+        "incoherences": []
+      },
+      "team": {
+        "total": 1555,
+        "majuscules": 6,
+        "minuscules": 0,
+        "title_case": 1121,
+        "mixte": 428,
+        "taux_coherence": 72.09003215434083,
+        "incoherences": []
+      },
+      "event": {
+        "total": 2315,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 903,
+        "mixte": 1412,
+        "taux_coherence": 39.00647948164147,
+        "incoherences": []
+      },
+      "birth_date": {
+        "total": 2315,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 2315,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "name": {
+        "accents": 0,
+        "apostrophes": 12,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country": {
+        "accents": 12,
+        "apostrophes": 1,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country_long": {
+        "accents": 12,
+        "apostrophes": 177,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "nationality": {
+        "accents": 12,
+        "apostrophes": 1,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "nationality_long": {
+        "accents": 12,
+        "apostrophes": 177,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "team": {
+        "accents": 5,
+        "apostrophes": 90,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "event": {
+        "accents": 30,
+        "apostrophes": 1245,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "medal_code": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1.0,
+        "max": 3.0,
+        "amplitude": 2.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Code numérique"
+        ]
+      },
+      "code_athlete": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1532872.0,
+        "max": 4980004.0,
+        "amplitude": 3447132.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Code numérique"
+        ]
+      }
+    },
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "medal_date": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      },
+      "medal_type": {
+        "min": 10,
+        "max": 12,
+        "moyenne": 11.350323974082073,
+        "mediane": 12.0,
+        "nb_vides": 0
+      },
+      "name": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 14.051403887688984,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "gender": {
+        "min": 4,
+        "max": 6,
+        "moyenne": 5.003887688984881,
+        "mediane": 6.0,
+        "nb_vides": 0
+      },
+      "country_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "country": {
+        "min": 3,
+        "max": 19,
+        "moyenne": 8.249244060475162,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_long": {
+        "min": 3,
+        "max": 37,
+        "moyenne": 11.834125269978403,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "nationality_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "nationality": {
+        "min": 4,
+        "max": 19,
+        "moyenne": 8.271823681936041,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "nationality_long": {
+        "min": 4,
+        "max": 37,
+        "moyenne": 11.860414866032844,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "team": {
+        "min": 4,
+        "max": 47,
+        "moyenne": 12.739549839228296,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "team_gender": {
+        "min": 1,
+        "max": 1,
+        "moyenne": 1.0,
+        "mediane": 1.0,
+        "nb_vides": 0
+      },
+      "discipline": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 9.289848812095032,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "event": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 13.538228941684665,
+        "mediane": 12.0,
+        "nb_vides": 0
+      },
+      "event_type": {
+        "min": 3,
+        "max": 5,
+        "moyenne": 4.16889848812095,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "url_event": {
+        "min": 46,
+        "max": 79,
+        "moyenne": 59.756320836966,
+        "mediane": 59.0,
+        "nb_vides": 0
+      },
+      "birth_date": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      },
+      "code_team": {
+        "min": 17,
+        "max": 17,
+        "moyenne": 17.0,
+        "mediane": 17.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "gender": {
+        "valeurs": {
+          "Female": 1162,
+          "Male": 1153
+        },
+        "normalise": true
+      },
+      "name": {
+        "format_nom_prenom": 0,
+        "format_standard": 2315,
+        "suggestion": "Format standard"
+      },
+      "medal_date": {
+        "valeurs": {
+          "2024-08-10": 371,
+          "2024-08-09": 276,
+          "2024-08-03": 244,
+          "2024-08-08": 180,
+          "2024-08-11": 178,
+          "2024-08-07": 124,
+          "2024-08-04": 121,
+          "2024-08-02": 120,
+          "2024-07-30": 113,
+          "2024-07-27": 112,
+          "2024-08-05": 99,
+          "2024-08-01": 99,
+          "2024-07-29": 89,
+          "2024-07-31": 86,
+          "2024-08-06": 56,
+          "2024-07-28": 47
+        },
+        "normalise": false
+      },
+      "medal_type": {
+        "valeurs": {
+          "Bronze Medal": 807,
+          "Silver Medal": 756,
+          "Gold Medal": 752
+        },
+        "normalise": false
+      },
+      "medal_code": {
+        "valeurs": {
+          "3.0": 806,
+          "2.0": 756,
+          "1.0": 752
+        },
+        "normalise": false
+      },
+      "is_medallist": {
+        "valeurs": {
+          "true": 2268,
+          "false": 47
+        },
+        "normalise": false
+      }
+    }
+  },
+  "medals.csv": {
+    "nom_fichier": "medals.csv",
+    "timestamp": "2026-01-16T12:28:16.758982",
+    "formats_colonnes": {
+      "medal_type": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Gold Medal",
+          "Silver Medal",
+          "Bronze Medal"
+        ],
+        "conformite": null
+      },
+      "medal_code": {
+        "type_detecte": "code_numerique",
+        "exemples": [
+          "1.0",
+          "2.0",
+          "3.0"
+        ],
+        "conformite": null
+      },
+      "medal_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-27",
+          "2024-07-27",
+          "2024-07-27"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "name": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Remco EVENEPOEL",
+          "Filippo GANNA",
+          "Wout van AERT"
+        ],
+        "conformite": null
+      },
+      "gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "M",
+          "M",
+          "M"
+        ],
+        "conformite": null
+      },
+      "discipline": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Cycling Road",
+          "Cycling Road",
+          "Cycling Road"
+        ],
+        "conformite": null
+      },
+      "event": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Men's Individual Time Trial",
+          "Men's Individual Time Trial",
+          "Men's Individual Time Trial"
+        ],
+        "conformite": null
+      },
+      "event_type": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ATH",
+          "ATH",
+          "ATH"
+        ],
+        "conformite": null
+      },
+      "url_event": {
+        "type_detecte": "url",
+        "exemples": [
+          "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+          "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+          "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--"
+        ],
+        "conformite": {
+          "nb_valides": 0,
+          "nb_invalides": 100,
+          "taux_conformite": 0.0,
+          "exemples_invalides": [
+            "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/men-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/women-s-individual-time-trial/fnl-000100--",
+            "/en/paris-2024/results/cycling-road/women-s-individual-time-trial/fnl-000100--"
+          ]
+        }
+      },
+      "code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "1903136",
+          "1923520",
+          "1903147"
+        ],
+        "conformite": null
+      },
+      "country_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "BEL",
+          "ITA",
+          "BEL"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Belgium",
+          "Italy",
+          "Belgium"
+        ],
+        "conformite": null
+      },
+      "country_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Belgium",
+          "Italy",
+          "Belgium"
+        ],
+        "conformite": null
+      }
+    },
+    "validation_urls": {
+      "url_event": {
+        "total": 1035,
+        "valides": 0,
+        "invalides": 1035,
+        "taux_validite": 0.0,
+        "schemas": {},
+        "top_domaines": {},
+        "problemes": [
+          "Format invalide: /en/paris-2024/results/cycling-road/men-s-individu",
+          "Format invalide: /en/paris-2024/results/cycling-road/men-s-individu",
+          "Format invalide: /en/paris-2024/results/cycling-road/men-s-individu",
+          "Format invalide: /en/paris-2024/results/cycling-road/women-s-indivi",
+          "Format invalide: /en/paris-2024/results/cycling-road/women-s-indivi"
+        ]
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {
+      "medal_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 0,
+          "Date seule": 100,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "Date seule": "2024-07-27"
+        },
+        "nb_parsable": 1044,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {
+      "country_code": {
+        "total": 1044,
+        "valeurs_uniques": 92,
+        "longueurs": {
+          "3": 1044
+        },
+        "casse": {
+          "majuscules": 1044,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 1044,
+        "top_valeurs": {
+          "USA": 126,
+          "CHN": 91,
+          "GBR": 65,
+          "FRA": 64,
+          "AUS": 53,
+          "JPN": 45,
+          "ITA": 40,
+          "NED": 34,
+          "GER": 33,
+          "KOR": 32
+        }
+      }
+    },
+    "coherence_casse": {
+      "medal_date": {
+        "total": 1044,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 1044,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "name": {
+        "total": 1044,
+        "majuscules": 58,
+        "minuscules": 0,
+        "title_case": 227,
+        "mixte": 759,
+        "taux_coherence": 21.743295019157088,
+        "incoherences": []
+      },
+      "event": {
+        "total": 1044,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 151,
+        "mixte": 893,
+        "taux_coherence": 14.46360153256705,
+        "incoherences": []
+      },
+      "code": {
+        "total": 1044,
+        "majuscules": 284,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 760,
+        "taux_coherence": 27.203065134099617,
+        "incoherences": []
+      },
+      "country_long": {
+        "total": 1044,
+        "majuscules": 5,
+        "minuscules": 0,
+        "title_case": 767,
+        "mixte": 272,
+        "taux_coherence": 73.46743295019157,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "name": {
+        "accents": 2,
+        "apostrophes": 4,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "event": {
+        "accents": 12,
+        "apostrophes": 769,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country": {
+        "accents": 9,
+        "apostrophes": 1,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country_long": {
+        "accents": 9,
+        "apostrophes": 98,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "medal_code": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1.0,
+        "max": 3.0,
+        "amplitude": 2.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Code numérique"
+        ]
+      }
+    },
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "medal_type": {
+        "min": 10,
+        "max": 12,
+        "moyenne": 11.369731800766283,
+        "mediane": 12.0,
+        "nb_vides": 0
+      },
+      "medal_date": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      },
+      "name": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 13.136973180076629,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "gender": {
+        "min": 1,
+        "max": 1,
+        "moyenne": 1.0,
+        "mediane": 1.0,
+        "nb_vides": 0
+      },
+      "discipline": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 9.518199233716475,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "event": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 16.168582375478927,
+        "mediane": 16.0,
+        "nb_vides": 0
+      },
+      "event_type": {
+        "min": 3,
+        "max": 5,
+        "moyenne": 3.64272030651341,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "url_event": {
+        "min": 46,
+        "max": 79,
+        "moyenne": 62.73719806763285,
+        "mediane": 63.0,
+        "nb_vides": 0
+      },
+      "code": {
+        "min": 7,
+        "max": 17,
+        "moyenne": 9.720306513409962,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "country": {
+        "min": 3,
+        "max": 19,
+        "moyenne": 8.14080459770115,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_long": {
+        "min": 3,
+        "max": 37,
+        "moyenne": 12.039272030651341,
+        "mediane": 9.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "gender": {
+        "valeurs": {
+          "M": 502,
+          "W": 478,
+          "X": 43,
+          "O": 21
+        },
+        "normalise": false
+      },
+      "name": {
+        "format_nom_prenom": 0,
+        "format_standard": 1044,
+        "suggestion": "Format standard"
+      },
+      "medal_type": {
+        "valeurs": {
+          "Bronze Medal": 385,
+          "Silver Medal": 330,
+          "Gold Medal": 329
+        },
+        "normalise": false
+      },
+      "medal_code": {
+        "valeurs": {
+          "3.0": 384,
+          "2.0": 330,
+          "1.0": 329
+        },
+        "normalise": false
+      },
+      "medal_date": {
+        "valeurs": {
+          "2024-08-10": 117,
+          "2024-08-09": 108,
+          "2024-08-03": 90,
+          "2024-08-08": 86,
+          "2024-08-02": 72,
+          "2024-08-04": 71,
+          "2024-08-07": 70,
+          "2024-08-05": 60,
+          "2024-07-29": 59,
+          "2024-07-31": 56,
+          "2024-08-01": 50,
+          "2024-08-06": 47,
+          "2024-07-27": 41,
+          "2024-07-28": 41,
+          "2024-08-11": 41,
+          "2024-07-30": 35
+        },
+        "normalise": false
+      }
+    }
+  },
+  "nocs.csv": {
+    "nom_fichier": "nocs.csv",
+    "timestamp": "2026-01-16T12:28:16.850284",
+    "formats_colonnes": {
+      "code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "AFG",
+          "AHO",
+          "AIN"
+        ],
+        "conformite": null
+      },
+      "country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Afghanistan",
+          "Netherlands Antilles",
+          "AIN"
+        ],
+        "conformite": null
+      },
+      "country_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Afghanistan",
+          "Netherlands Antilles",
+          "AIN"
+        ],
+        "conformite": null
+      },
+      "tag": {
+        "type_detecte": "tag_slug",
+        "exemples": [
+          "afghanistan",
+          "netherlands-antilles",
+          "ain"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "note": {
+        "type_detecte": "texte",
+        "exemples": [
+          "P",
+          "H",
+          "P"
+        ],
+        "conformite": null
+      }
+    },
+    "validation_urls": {},
+    "validation_emails": {},
+    "formats_dates": {},
+    "codes_iso": {},
+    "coherence_casse": {
+      "country": {
+        "total": 224,
+        "majuscules": 11,
+        "minuscules": 0,
+        "title_case": 201,
+        "mixte": 12,
+        "taux_coherence": 89.73214285714286,
+        "incoherences": []
+      },
+      "country_long": {
+        "total": 224,
+        "majuscules": 4,
+        "minuscules": 0,
+        "title_case": 196,
+        "mixte": 24,
+        "taux_coherence": 87.5,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "country": {
+        "accents": 2,
+        "apostrophes": 1,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country_long": {
+        "accents": 2,
+        "apostrophes": 4,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {},
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "country": {
+        "min": 3,
+        "max": 20,
+        "moyenne": 8.428571428571429,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_long": {
+        "min": 3,
+        "max": 37,
+        "moyenne": 10.455357142857142,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "tag": {
+        "min": 3,
+        "max": 22,
+        "moyenne": 8.464285714285714,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "note": {
+        "min": 1,
+        "max": 2,
+        "moyenne": 1.0133928571428572,
+        "mediane": 1.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {}
+  },
+  "schedules.csv": {
+    "nom_fichier": "schedules.csv",
+    "timestamp": "2026-01-16T12:28:16.885832",
+    "formats_colonnes": {
+      "start_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-24T15:00:00+02:00",
+          "2024-07-24T15:00:00+02:00",
+          "2024-07-24T15:30:00+02:00"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "end_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-24T16:45:00+02:00",
+          "2024-07-24T16:45:00+02:00",
+          "2024-07-24T15:46:00+02:00"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "day": {
+        "type_detecte": "texte",
+        "exemples": [
+          "2024-07-24",
+          "2024-07-24",
+          "2024-07-24"
+        ],
+        "conformite": null
+      },
+      "status": {
+        "type_detecte": "texte",
+        "exemples": [
+          "FINISHED",
+          "FINISHED",
+          "FINISHED"
+        ],
+        "conformite": null
+      },
+      "discipline": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Football",
+          "Football",
+          "Rugby Sevens"
+        ],
+        "conformite": null
+      },
+      "discipline_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "FBL",
+          "FBL",
+          "RU7"
+        ],
+        "conformite": null
+      },
+      "event": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Men",
+          "Men",
+          "Men"
+        ],
+        "conformite": null
+      },
+      "event_medal": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "0",
+          "0",
+          "0"
+        ],
+        "conformite": null
+      },
+      "phase": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Men's Group B",
+          "Men's Group C",
+          "Men's Pool B"
+        ],
+        "conformite": null
+      },
+      "gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "M",
+          "M",
+          "M"
+        ],
+        "conformite": null
+      },
+      "event_type": {
+        "type_detecte": "texte",
+        "exemples": [
+          "HTEAM",
+          "HTEAM",
+          "HTEAM"
+        ],
+        "conformite": null
+      },
+      "venue": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Geoffroy-Guichard Stadium",
+          "Parc des Princes",
+          "Stade de France"
+        ],
+        "conformite": null
+      },
+      "venue_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "STE",
+          "PDP",
+          "STA"
+        ],
+        "conformite": null
+      },
+      "location_description": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Geoffroy-Guichard Stadium, Saint-Etienne",
+          "Parc des Princes, Paris",
+          "Stade de France"
+        ],
+        "conformite": null
+      },
+      "location_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "STE",
+          "PDP",
+          "STA"
+        ],
+        "conformite": null
+      },
+      "url": {
+        "type_detecte": "url",
+        "exemples": [
+          "/en/paris-2024/results/football/men/gpb-000100--",
+          "/en/paris-2024/results/football/men/gpc-000100--",
+          "/en/paris-2024/results/rugby-sevens/men/gpb-000100--"
+        ],
+        "conformite": {
+          "nb_valides": 0,
+          "nb_invalides": 100,
+          "taux_conformite": 0.0,
+          "exemples_invalides": [
+            "/en/paris-2024/results/football/men/gpb-000100--",
+            "/en/paris-2024/results/football/men/gpc-000100--",
+            "/en/paris-2024/results/rugby-sevens/men/gpb-000100--",
+            "/en/paris-2024/results/rugby-sevens/men/gpb-000200--",
+            "/en/paris-2024/results/rugby-sevens/men/gpc-000100--"
+          ]
+        }
+      }
+    },
+    "validation_urls": {
+      "url": {
+        "total": 3810,
+        "valides": 0,
+        "invalides": 3810,
+        "taux_validite": 0.0,
+        "schemas": {},
+        "top_domaines": {},
+        "problemes": [
+          "Format invalide: /en/paris-2024/results/football/men/gpb-000100--",
+          "Format invalide: /en/paris-2024/results/football/men/gpc-000100--",
+          "Format invalide: /en/paris-2024/results/rugby-sevens/men/gpb-000100",
+          "Format invalide: /en/paris-2024/results/rugby-sevens/men/gpb-000200",
+          "Format invalide: /en/paris-2024/results/rugby-sevens/men/gpc-000100"
+        ]
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {
+      "start_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 100,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-07-24T15:00:00+02:00"
+        },
+        "nb_parsable": 3895,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      },
+      "end_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 100,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-07-24T16:45:00+02:00"
+        },
+        "nb_parsable": 3893,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {},
+    "coherence_casse": {
+      "day": {
+        "total": 3895,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 3895,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "event": {
+        "total": 3893,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 963,
+        "mixte": 2930,
+        "taux_coherence": 24.736706909838173,
+        "incoherences": []
+      },
+      "phase": {
+        "total": 3893,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 212,
+        "mixte": 3681,
+        "taux_coherence": 5.445671718469047,
+        "incoherences": []
+      },
+      "venue": {
+        "total": 3893,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 2509,
+        "mixte": 1384,
+        "taux_coherence": 64.44901104546622,
+        "incoherences": []
+      },
+      "location_description": {
+        "total": 3893,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 2401,
+        "mixte": 1492,
+        "taux_coherence": 61.67480092473671,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "event": {
+        "accents": 95,
+        "apostrophes": 2314,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "phase": {
+        "accents": 95,
+        "apostrophes": 2719,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "venue": {
+        "accents": 47,
+        "apostrophes": 64,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "location_description": {
+        "accents": 47,
+        "apostrophes": 64,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "event_medal": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 0.0,
+        "max": 3.0,
+        "amplitude": 3.0,
+        "nb_zeros": 3398,
+        "nb_negatifs": 0,
+        "patterns": []
+      }
+    },
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "start_date": {
+        "min": 25,
+        "max": 25,
+        "moyenne": 25.0,
+        "mediane": 25.0,
+        "nb_vides": 0
+      },
+      "end_date": {
+        "min": 25,
+        "max": 25,
+        "moyenne": 25.0,
+        "mediane": 25.0,
+        "nb_vides": 0
+      },
+      "day": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      },
+      "status": {
+        "min": 8,
+        "max": 9,
+        "moyenne": 8.018228498074455,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "discipline": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 8.423363286264442,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "discipline_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "event": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 13.28769586437195,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "phase": {
+        "min": 10,
+        "max": 40,
+        "moyenne": 27.24094528641151,
+        "mediane": 27.0,
+        "nb_vides": 0
+      },
+      "gender": {
+        "min": 1,
+        "max": 1,
+        "moyenne": 1.0,
+        "mediane": 1.0,
+        "nb_vides": 0
+      },
+      "event_type": {
+        "min": 3,
+        "max": 5,
+        "moyenne": 4.081941947084511,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "venue": {
+        "min": 9,
+        "max": 25,
+        "moyenne": 17.35833547392756,
+        "mediane": 19.0,
+        "nb_vides": 0
+      },
+      "venue_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "location_description": {
+        "min": 9,
+        "max": 47,
+        "moyenne": 24.077318263549962,
+        "mediane": 25.0,
+        "nb_vides": 0
+      },
+      "location_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "url": {
+        "min": 46,
+        "max": 79,
+        "moyenne": 58.84776902887139,
+        "mediane": 58.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "gender": {
+        "valeurs": {
+          "M": 1940,
+          "W": 1791,
+          "X": 141,
+          "O": 21
+        },
+        "normalise": false
+      },
+      "event_medal": {
+        "valeurs": {
+          "0": 3398,
+          "1": 329,
+          "3": 168
+        },
+        "normalise": false
+      }
+    }
+  },
+  "schedules_preliminary.csv": {
+    "nom_fichier": "schedules_preliminary.csv",
+    "timestamp": "2026-01-16T12:28:17.183869",
+    "formats_colonnes": {
+      "date_start_utc": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-25T07:30:00Z",
+          "2024-07-25T12:15:00Z",
+          "2024-07-28T07:30:00Z"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "date_end_utc": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-25T10:30:00Z",
+          "2024-07-25T15:15:00Z",
+          "2024-07-28T09:00:00Z"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "estimated": {
+        "type_detecte": "texte",
+        "exemples": [
+          "False",
+          "False",
+          "False"
+        ],
+        "conformite": null
+      },
+      "estimated_start": {
+        "type_detecte": "texte",
+        "exemples": [
+          "False",
+          "False",
+          "False"
+        ],
+        "conformite": null
+      },
+      "start_text": {
+        "type_detecte": "texte",
+        "exemples": [
+          "09:00",
+          "09:00"
+        ],
+        "conformite": null
+      },
+      "medal": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "3.0",
+          "1.0",
+          "3.0"
+        ],
+        "conformite": null
+      },
+      "venue_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "INV",
+          "INV",
+          "INV"
+        ],
+        "conformite": null
+      },
+      "description": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Invalides",
+          "Invalides",
+          "Invalides"
+        ],
+        "conformite": null
+      },
+      "venue_code_other": {
+        "type_detecte": "texte",
+        "exemples": [
+          "TRO",
+          "STA",
+          "STA"
+        ],
+        "conformite": null
+      },
+      "discription_other": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Trocadéro",
+          "Stade de France",
+          "Stade de France"
+        ],
+        "conformite": null
+      },
+      "team_1_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "UZB",
+          "ARG",
+          "EGY"
+        ],
+        "conformite": null
+      },
+      "team_1": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Uzbekistan",
+          "Argentina",
+          "Egypt"
+        ],
+        "conformite": null
+      },
+      "team_2_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ESP",
+          "MAR",
+          "DOM"
+        ],
+        "conformite": null
+      },
+      "team_2": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Spain",
+          "Morocco",
+          "Dominican Republic"
+        ],
+        "conformite": null
+      },
+      "tag": {
+        "type_detecte": "tag_slug",
+        "exemples": [
+          "archery",
+          "archery",
+          "archery"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "sport": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Archery",
+          "Archery",
+          "Archery"
+        ],
+        "conformite": null
+      },
+      "sport_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ARC",
+          "ARC",
+          "ARC"
+        ],
+        "conformite": null
+      },
+      "sport_url": {
+        "type_detecte": "url",
+        "exemples": [
+          "https://olympics.com/en/paris-2024/sports/archery",
+          "https://olympics.com/en/paris-2024/sports/archery",
+          "https://olympics.com/en/paris-2024/sports/archery"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      }
+    },
+    "validation_urls": {
+      "sport_url": {
+        "total": 2298,
+        "valides": 2298,
+        "invalides": 0,
+        "taux_validite": 100.0,
+        "schemas": {
+          "https": 2298
+        },
+        "top_domaines": {
+          "olympics.com": 2298
+        },
+        "problemes": []
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {
+      "date_start_utc": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 100,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-07-25T07:30:00Z"
+        },
+        "nb_parsable": 2298,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      },
+      "date_end_utc": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 100,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-07-25T10:30:00Z"
+        },
+        "nb_parsable": 2298,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {},
+    "coherence_casse": {
+      "description": {
+        "total": 2298,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 1458,
+        "mixte": 840,
+        "taux_coherence": 63.44647519582245,
+        "incoherences": []
+      },
+      "discription_other": {
+        "total": 82,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 49,
+        "mixte": 33,
+        "taux_coherence": 59.756097560975604,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "description": {
+        "accents": 45,
+        "apostrophes": 100,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "discription_other": {
+        "accents": 1,
+        "apostrophes": 0,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "medal": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1.0,
+        "max": 3.0,
+        "amplitude": 2.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": []
+      }
+    },
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "date_start_utc": {
+        "min": 20,
+        "max": 20,
+        "moyenne": 20.0,
+        "mediane": 20.0,
+        "nb_vides": 0
+      },
+      "date_end_utc": {
+        "min": 20,
+        "max": 20,
+        "moyenne": 20.0,
+        "mediane": 20.0,
+        "nb_vides": 0
+      },
+      "start_text": {
+        "min": 5,
+        "max": 5,
+        "moyenne": 5.0,
+        "mediane": 5.0,
+        "nb_vides": 0
+      },
+      "venue_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "description": {
+        "min": 9,
+        "max": 40,
+        "moyenne": 17.869016536118362,
+        "mediane": 18.0,
+        "nb_vides": 0
+      },
+      "venue_code_other": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "discription_other": {
+        "min": 9,
+        "max": 25,
+        "moyenne": 15.829268292682928,
+        "mediane": 15.0,
+        "nb_vides": 0
+      },
+      "team_1_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "team_1": {
+        "min": 4,
+        "max": 18,
+        "moyenne": 7.5754716981132075,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "team_2_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "team_2": {
+        "min": 4,
+        "max": 18,
+        "moyenne": 7.382075471698113,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "tag": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 9.50739773716275,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "sport": {
+        "min": 4,
+        "max": 21,
+        "moyenne": 9.207136640557007,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "sport_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "sport_url": {
+        "min": 46,
+        "max": 63,
+        "moyenne": 51.50739773716275,
+        "mediane": 51.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "medal": {
+        "valeurs": {
+          "1.0": 341,
+          "3.0": 149
+        },
+        "normalise": false
+      }
+    }
+  },
+  "teams.csv": {
+    "nom_fichier": "teams.csv",
+    "timestamp": "2026-01-16T12:28:17.317835",
+    "formats_colonnes": {
+      "code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ARCMTEAM3---CHN01",
+          "ARCMTEAM3---COL01",
+          "ARCMTEAM3---FRA01"
+        ],
+        "conformite": null
+      },
+      "current": {
+        "type_detecte": "texte",
+        "exemples": [
+          "True",
+          "True",
+          "True"
+        ],
+        "conformite": null
+      },
+      "team": {
+        "type_detecte": "texte",
+        "exemples": [
+          "People's Republic of China",
+          "Colombia",
+          "France"
+        ],
+        "conformite": null
+      },
+      "team_gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "M",
+          "M",
+          "M"
+        ],
+        "conformite": null
+      },
+      "country_code": {
+        "type_detecte": "code_pays",
+        "exemples": [
+          "CHN",
+          "COL",
+          "FRA"
+        ],
+        "conformite": {
+          "nb_valides": 100,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "country": {
+        "type_detecte": "texte",
+        "exemples": [
+          "China",
+          "Colombia",
+          "France"
+        ],
+        "conformite": null
+      },
+      "country_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "People's Republic of China",
+          "Colombia",
+          "France"
+        ],
+        "conformite": null
+      },
+      "discipline": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Archery",
+          "Archery",
+          "Archery"
+        ],
+        "conformite": null
+      },
+      "disciplines_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ARC",
+          "ARC",
+          "ARC"
+        ],
+        "conformite": null
+      },
+      "events": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Men's Team",
+          "Men's Team",
+          "Men's Team"
+        ],
+        "conformite": null
+      },
+      "athletes": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['KAO Wenchao', 'LI Zhongyuan', 'WANG Yan']",
+          "['ARCILA Santiago', 'ENRIQUEZ Jorge', 'HERNANDEZ VERA Andres']",
+          "['ADDIS Baptiste', 'CHIRAULT Thomas', 'VALLADONT Jean-Charles']"
+        ],
+        "conformite": null
+      },
+      "coaches": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['GOORJIAN Brian', 'NIELSEN Matt']",
+          "['SPLITTER Tiago', 'PETROVIC Aleksandar']",
+          "['BJORKGREN Nate', 'FERNANDEZ Jordi']"
+        ],
+        "conformite": null
+      },
+      "athletes_codes": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['1913366', '1913367', '1913369']",
+          "['1935642', '1543412', '1935644']",
+          "['1541270', '1541272', '1541275']"
+        ],
+        "conformite": null
+      },
+      "num_athletes": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "3.0",
+          "3.0",
+          "3.0"
+        ],
+        "conformite": null
+      },
+      "coaches_codes": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['1940074', '1940088']",
+          "['1952532', '3430822']",
+          "['1974756', '1974760']"
+        ],
+        "conformite": null
+      },
+      "num_coaches": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "2.0",
+          "2.0",
+          "2.0"
+        ],
+        "conformite": null
+      }
+    },
+    "validation_urls": {},
+    "validation_emails": {},
+    "formats_dates": {},
+    "codes_iso": {
+      "country_code": {
+        "total": 1698,
+        "valeurs_uniques": 104,
+        "longueurs": {
+          "3": 1698
+        },
+        "casse": {
+          "majuscules": 1698,
+          "minuscules": 0,
+          "mixte": 0
+        },
+        "conformite_ISO_2": 0,
+        "conformite_ISO_3": 1698,
+        "top_valeurs": {
+          "USA": 171,
+          "AUS": 129,
+          "CHN": 112,
+          "FRA": 92,
+          "GBR": 80,
+          "GER": 79,
+          "ITA": 76,
+          "CAN": 61,
+          "NED": 59,
+          "ESP": 56
+        }
+      }
+    },
+    "coherence_casse": {
+      "team": {
+        "total": 1698,
+        "majuscules": 24,
+        "minuscules": 0,
+        "title_case": 1171,
+        "mixte": 503,
+        "taux_coherence": 68.96348645465254,
+        "incoherences": []
+      },
+      "country_long": {
+        "total": 1698,
+        "majuscules": 6,
+        "minuscules": 0,
+        "title_case": 1363,
+        "mixte": 329,
+        "taux_coherence": 80.27090694935218,
+        "incoherences": []
+      },
+      "events": {
+        "total": 1377,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 519,
+        "mixte": 858,
+        "taux_coherence": 37.690631808278866,
+        "incoherences": []
+      },
+      "athletes": {
+        "total": 1695,
+        "majuscules": 3,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 1692,
+        "taux_coherence": 0.17699115044247787,
+        "incoherences": []
+      },
+      "coaches": {
+        "total": 246,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 246,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      },
+      "athletes_codes": {
+        "total": 1695,
+        "majuscules": 298,
+        "minuscules": 0,
+        "title_case": 298,
+        "mixte": 1099,
+        "taux_coherence": 17.5811209439528,
+        "incoherences": [
+          "Mélange Title Case avec autres formats"
+        ]
+      },
+      "coaches_codes": {
+        "total": 246,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 246,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "team": {
+        "accents": 11,
+        "apostrophes": 92,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country": {
+        "accents": 13,
+        "apostrophes": 2,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "country_long": {
+        "accents": 13,
+        "apostrophes": 116,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "events": {
+        "accents": 16,
+        "apostrophes": 781,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "athletes": {
+        "accents": 0,
+        "apostrophes": 1695,
+        "guillemets": 40,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "coaches": {
+        "accents": 0,
+        "apostrophes": 246,
+        "guillemets": 6,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "athletes_codes": {
+        "accents": 0,
+        "apostrophes": 1695,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "coaches_codes": {
+        "accents": 0,
+        "apostrophes": 246,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "num_athletes": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 2.0,
+        "max": 22.0,
+        "amplitude": 20.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": []
+      },
+      "num_coaches": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1.0,
+        "max": 12.0,
+        "amplitude": 11.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": []
+      }
+    },
+    "structures_json": {
+      "athletes": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['KAO Wenchao', 'LI Zhongyuan', 'WANG Yan']",
+          "['ARCILA Santiago', 'ENRIQUEZ Jorge', 'HERNANDEZ VERA Andres']",
+          "['ADDIS Baptiste', 'CHIRAULT Thomas', 'VALLADONT Jean-Charles']"
+        ]
+      },
+      "coaches": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['GOORJIAN Brian', 'NIELSEN Matt']",
+          "['SPLITTER Tiago', 'PETROVIC Aleksandar']",
+          "['BJORKGREN Nate', 'FERNANDEZ Jordi']"
+        ]
+      },
+      "athletes_codes": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['1913366', '1913367', '1913369']",
+          "['1935642', '1543412', '1935644']",
+          "['1541270', '1541272', '1541275']"
+        ]
+      },
+      "coaches_codes": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['1940074', '1940088']",
+          "['1952532', '3430822']",
+          "['1974756', '1974760']"
+        ]
+      }
+    },
+    "espacements": {
+      "team": {
+        "espaces_debut": 0,
+        "espaces_fin": 0,
+        "espaces_multiples": 1,
+        "tabulations": 0
+      }
+    },
+    "longueurs": {
+      "code": {
+        "min": 9,
+        "max": 17,
+        "moyenne": 16.074204946996467,
+        "mediane": 17.0,
+        "nb_vides": 0
+      },
+      "team": {
+        "min": 4,
+        "max": 72,
+        "moyenne": 14.41813898704358,
+        "mediane": 11.0,
+        "nb_vides": 0
+      },
+      "team_gender": {
+        "min": 1,
+        "max": 1,
+        "moyenne": 1.0,
+        "mediane": 1.0,
+        "nb_vides": 0
+      },
+      "country_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "country": {
+        "min": 3,
+        "max": 20,
+        "moyenne": 7.98527679623086,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "country_long": {
+        "min": 3,
+        "max": 37,
+        "moyenne": 10.818610129564194,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "discipline": {
+        "min": 4,
+        "max": 19,
+        "moyenne": 9.055948174322733,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "disciplines_code": {
+        "min": 3,
+        "max": 3,
+        "moyenne": 3.0,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "events": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 15.852578068264343,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "athletes": {
+        "min": 23,
+        "max": 465,
+        "moyenne": 83.57817109144543,
+        "mediane": 65.0,
+        "nb_vides": 0
+      },
+      "coaches": {
+        "min": 17,
+        "max": 239,
+        "moyenne": 81.51626016260163,
+        "mediane": 67.5,
+        "nb_vides": 0
+      },
+      "athletes_codes": {
+        "min": 22,
+        "max": 242,
+        "moyenne": 53.227138643067846,
+        "mediane": 44.0,
+        "nb_vides": 0
+      },
+      "coaches_codes": {
+        "min": 11,
+        "max": 132,
+        "moyenne": 48.02439024390244,
+        "mediane": 44.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {}
+  },
+  "technical_officials.csv": {
+    "nom_fichier": "technical_officials.csv",
+    "timestamp": "2026-01-16T12:28:17.436209",
+    "formats_colonnes": {
+      "code": {
+        "type_detecte": "code_numerique",
+        "exemples": [
+          "1536406",
+          "1550583",
+          "1550593"
+        ],
+        "conformite": null
+      },
+      "current": {
+        "type_detecte": "texte",
+        "exemples": [
+          "True",
+          "True",
+          "True"
+        ],
+        "conformite": null
+      },
+      "name": {
+        "type_detecte": "texte",
+        "exemples": [
+          "FRATINI Elisabetta",
+          "ILIC Corina",
+          "MAAFI Ziad"
+        ],
+        "conformite": null
+      },
+      "gender": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Female",
+          "Female",
+          "Male"
+        ],
+        "conformite": null
+      },
+      "function": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Referee",
+          "Referee",
+          "Referee"
+        ],
+        "conformite": null
+      },
+      "category": {
+        "type_detecte": "texte",
+        "exemples": [
+          "J",
+          "J",
+          "J"
+        ],
+        "conformite": null
+      },
+      "organisation_code": {
+        "type_detecte": "texte",
+        "exemples": [
+          "ITA",
+          "CRO",
+          "ALG"
+        ],
+        "conformite": null
+      },
+      "organisation": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Italy",
+          "Croatia",
+          "Algeria"
+        ],
+        "conformite": null
+      },
+      "organisation_long": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Italy",
+          "Croatia",
+          "Algeria"
+        ],
+        "conformite": null
+      },
+      "disciplines": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['Judo']",
+          "['Judo']",
+          "['Judo']"
+        ],
+        "conformite": null
+      },
+      "birth_date": {
+        "type_detecte": "date",
+        "exemples": [
+          "1964-11-17",
+          "1975-04-09",
+          "1971-03-10"
+        ],
+        "conformite": {
+          "nb_valides": 19,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      }
+    },
+    "validation_urls": {},
+    "validation_emails": {},
+    "formats_dates": {
+      "birth_date": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 0,
+          "Date seule": 19,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "Date seule": "1964-11-17"
+        },
+        "nb_parsable": 19,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {},
+    "coherence_casse": {
+      "name": {
+        "total": 1021,
+        "majuscules": 10,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 1011,
+        "taux_coherence": 0.9794319294809012,
+        "incoherences": []
+      },
+      "organisation": {
+        "total": 1021,
+        "majuscules": 322,
+        "minuscules": 0,
+        "title_case": 689,
+        "mixte": 10,
+        "taux_coherence": 67.48285994123408,
+        "incoherences": [
+          "Mélange Title Case avec autres formats"
+        ]
+      },
+      "organisation_long": {
+        "total": 1021,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 966,
+        "mixte": 55,
+        "taux_coherence": 94.61312438785504,
+        "incoherences": []
+      },
+      "disciplines": {
+        "total": 1021,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 969,
+        "mixte": 52,
+        "taux_coherence": 94.90695396669932,
+        "incoherences": []
+      },
+      "birth_date": {
+        "total": 19,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 0,
+        "mixte": 19,
+        "taux_coherence": 0.0,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "name": {
+        "accents": 0,
+        "apostrophes": 4,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "organisation": {
+        "accents": 4,
+        "apostrophes": 0,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "organisation_long": {
+        "accents": 4,
+        "apostrophes": 11,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "disciplines": {
+        "accents": 0,
+        "apostrophes": 1021,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "code": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1536406.0,
+        "max": 4968543.0,
+        "amplitude": 3432137.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": [
+          "Code numérique"
+        ]
+      }
+    },
+    "structures_json": {
+      "disciplines": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 100,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['Judo']",
+          "['Judo']",
+          "['Judo']"
+        ]
+      }
+    },
+    "espacements": {},
+    "longueurs": {
+      "name": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 14.627815866797258,
+        "mediane": 14.0,
+        "nb_vides": 0
+      },
+      "gender": {
+        "min": 4,
+        "max": 6,
+        "moyenne": 4.722820763956905,
+        "mediane": 4.0,
+        "nb_vides": 0
+      },
+      "function": {
+        "min": 5,
+        "max": 18,
+        "moyenne": 6.885406464250734,
+        "mediane": 7.0,
+        "nb_vides": 0
+      },
+      "category": {
+        "min": 1,
+        "max": 1,
+        "moyenne": 1.0,
+        "mediane": 1.0,
+        "nb_vides": 0
+      },
+      "organisation_code": {
+        "min": 2,
+        "max": 4,
+        "moyenne": 3.149853085210578,
+        "mediane": 3.0,
+        "nb_vides": 0
+      },
+      "organisation": {
+        "min": 3,
+        "max": 20,
+        "moyenne": 7.254652301665034,
+        "mediane": 6.0,
+        "nb_vides": 0
+      },
+      "organisation_long": {
+        "min": 4,
+        "max": 35,
+        "moyenne": 16.329089128305583,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "disciplines": {
+        "min": 8,
+        "max": 71,
+        "moyenne": 15.619000979431929,
+        "mediane": 13.0,
+        "nb_vides": 0
+      },
+      "birth_date": {
+        "min": 10,
+        "max": 10,
+        "moyenne": 10.0,
+        "mediane": 10.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {
+      "gender": {
+        "valeurs": {
+          "Male": 652,
+          "Female": 369
+        },
+        "normalise": true
+      },
+      "name": {
+        "format_nom_prenom": 0,
+        "format_standard": 1021,
+        "suggestion": "Format standard"
+      }
+    }
+  },
+  "torch_route.csv": {
+    "nom_fichier": "torch_route.csv",
+    "timestamp": "2026-01-16T12:28:17.492071",
+    "formats_colonnes": {
+      "title": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Lighting Ceremony",
+          "Relay in Greece",
+          "Handover Ceremony"
+        ],
+        "conformite": null
+      },
+      "city": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Olympia",
+          "Athens",
+          "Marseille"
+        ],
+        "conformite": null
+      },
+      "date_start": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-04-15T22:01:00Z",
+          "2024-04-16T10:02:00Z",
+          "2024-04-25T22:01:00Z"
+        ],
+        "conformite": {
+          "nb_valides": 73,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "date_end": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-04-16T10:01:00Z",
+          "2024-04-26T17:06:00Z",
+          "2024-04-26T17:07:00Z"
+        ],
+        "conformite": {
+          "nb_valides": 73,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "tag": {
+        "type_detecte": "tag_slug",
+        "exemples": [
+          "lighting-ceremony",
+          "relay-in-greece",
+          "handover-ceremony"
+        ],
+        "conformite": {
+          "nb_valides": 73,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "url": {
+        "type_detecte": "url",
+        "exemples": [
+          "https://olympics.com/en/paris-2024/olympic-torch-relay/stages/lighting-ceremony",
+          "https://olympics.com/en/paris-2024/olympic-torch-relay/stages/relay-in-greece",
+          "https://olympics.com/en/paris-2024/olympic-torch-relay/stages/handover-ceremony"
+        ],
+        "conformite": {
+          "nb_valides": 73,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "stage_number": {
+        "type_detecte": "numerique",
+        "exemples": [
+          "1.0",
+          "2.0",
+          "3.0"
+        ],
+        "conformite": null
+      }
+    },
+    "validation_urls": {
+      "url": {
+        "total": 73,
+        "valides": 73,
+        "invalides": 0,
+        "taux_validite": 100.0,
+        "schemas": {
+          "https": 73
+        },
+        "top_domaines": {
+          "olympics.com": 73
+        },
+        "problemes": []
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {
+      "date_start": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 73,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-04-15T22:01:00Z"
+        },
+        "nb_parsable": 73,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      },
+      "date_end": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 73,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-04-16T10:01:00Z"
+        },
+        "nb_parsable": 73,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {},
+    "coherence_casse": {
+      "title": {
+        "total": 73,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 57,
+        "mixte": 16,
+        "taux_coherence": 78.08219178082192,
+        "incoherences": []
+      },
+      "city": {
+        "total": 72,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 65,
+        "mixte": 7,
+        "taux_coherence": 90.27777777777779,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "title": {
+        "accents": 11,
+        "apostrophes": 3,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "city": {
+        "accents": 11,
+        "apostrophes": 2,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {
+      "stage_number": {
+        "est_entier": true,
+        "nb_decimales": 0,
+        "min": 1.0,
+        "max": 68.0,
+        "amplitude": 67.0,
+        "nb_zeros": 0,
+        "nb_negatifs": 0,
+        "patterns": []
+      }
+    },
+    "structures_json": {},
+    "espacements": {},
+    "longueurs": {
+      "title": {
+        "min": 3,
+        "max": 35,
+        "moyenne": 10.972602739726028,
+        "mediane": 9.0,
+        "nb_vides": 0
+      },
+      "city": {
+        "min": 3,
+        "max": 32,
+        "moyenne": 9.708333333333334,
+        "mediane": 8.0,
+        "nb_vides": 0
+      },
+      "date_start": {
+        "min": 20,
+        "max": 20,
+        "moyenne": 20.0,
+        "mediane": 20.0,
+        "nb_vides": 0
+      },
+      "date_end": {
+        "min": 20,
+        "max": 20,
+        "moyenne": 20.0,
+        "mediane": 20.0,
+        "nb_vides": 0
+      },
+      "tag": {
+        "min": 5,
+        "max": 43,
+        "moyenne": 19.136986301369863,
+        "mediane": 18.0,
+        "nb_vides": 0
+      },
+      "url": {
+        "min": 67,
+        "max": 105,
+        "moyenne": 81.13698630136986,
+        "mediane": 80.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {}
+  },
+  "venues.csv": {
+    "nom_fichier": "venues.csv",
+    "timestamp": "2026-01-16T12:28:17.517022",
+    "formats_colonnes": {
+      "venue": {
+        "type_detecte": "texte",
+        "exemples": [
+          "Aquatics Centre",
+          "Bercy Arena",
+          "Bordeaux Stadium"
+        ],
+        "conformite": null
+      },
+      "sports": {
+        "type_detecte": "texte",
+        "exemples": [
+          "['Artistic Swimming', 'Diving', 'Water Polo']",
+          "['Artistic Gymnastics', 'Basketball', 'Trampoline']",
+          "['Football']"
+        ],
+        "conformite": null
+      },
+      "date_start": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-07-27T09:00:00Z",
+          "2024-07-27T09:00:00Z",
+          "2024-07-25T17:00:00Z"
+        ],
+        "conformite": {
+          "nb_valides": 34,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "date_end": {
+        "type_detecte": "date",
+        "exemples": [
+          "2024-08-10T20:00:00Z",
+          "2024-08-11T16:00:00Z",
+          "2024-08-02T21:59:00Z"
+        ],
+        "conformite": {
+          "nb_valides": 34,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "tag": {
+        "type_detecte": "tag_slug",
+        "exemples": [
+          "aquatics-centre",
+          "bercy-arena",
+          "bordeaux-stadium"
+        ],
+        "conformite": {
+          "nb_valides": 35,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      },
+      "url": {
+        "type_detecte": "url",
+        "exemples": [
+          "https://olympics.com/en/paris-2024/venues/aquatics-centre",
+          "https://olympics.com/en/paris-2024/venues/bercy-arena",
+          "https://olympics.com/en/paris-2024/venues/bordeaux-stadium"
+        ],
+        "conformite": {
+          "nb_valides": 35,
+          "nb_invalides": 0,
+          "taux_conformite": 100.0,
+          "exemples_invalides": []
+        }
+      }
+    },
+    "validation_urls": {
+      "url": {
+        "total": 35,
+        "valides": 35,
+        "invalides": 0,
+        "taux_validite": 100.0,
+        "schemas": {
+          "https": 35
+        },
+        "top_domaines": {
+          "olympics.com": 35
+        },
+        "problemes": []
+      }
+    },
+    "validation_emails": {},
+    "formats_dates": {
+      "date_start": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 34,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-07-27T09:00:00Z"
+        },
+        "nb_parsable": 34,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      },
+      "date_end": {
+        "formats_detectes": {
+          "ISO 8601": 0,
+          "ISO avec timezone": 34,
+          "Date seule": 0,
+          "Datetime": 0,
+          "Autre": 0,
+          "Invalide": 0
+        },
+        "exemples": {
+          "ISO avec timezone": "2024-08-10T20:00:00Z"
+        },
+        "nb_parsable": 34,
+        "nb_non_parsable": 0,
+        "taux_validite": 100.0
+      }
+    },
+    "codes_iso": {},
+    "coherence_casse": {
+      "venue": {
+        "total": 35,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 23,
+        "mixte": 12,
+        "taux_coherence": 65.71428571428571,
+        "incoherences": []
+      },
+      "sports": {
+        "total": 35,
+        "majuscules": 0,
+        "minuscules": 0,
+        "title_case": 33,
+        "mixte": 2,
+        "taux_coherence": 94.28571428571428,
+        "incoherences": []
+      }
+    },
+    "caracteres_speciaux": {
+      "venue": {
+        "accents": 3,
+        "apostrophes": 1,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      },
+      "sports": {
+        "accents": 0,
+        "apostrophes": 35,
+        "guillemets": 0,
+        "tirets_speciaux": 0,
+        "symboles": 0,
+        "emoji": 0
+      }
+    },
+    "formats_numeriques": {},
+    "structures_json": {
+      "sports": {
+        "type_structure": "liste",
+        "nb_structures_detectees": 35,
+        "nb_parsable": 10,
+        "nb_non_parsable": 0,
+        "exemples": [
+          "['Artistic Swimming', 'Diving', 'Water Polo']",
+          "['Artistic Gymnastics', 'Basketball', 'Trampoline']",
+          "['Football']"
+        ]
+      }
+    },
+    "espacements": {},
+    "longueurs": {
+      "venue": {
+        "min": 9,
+        "max": 37,
+        "moyenne": 18.82857142857143,
+        "mediane": 17.0,
+        "nb_vides": 0
+      },
+      "sports": {
+        "min": 8,
+        "max": 72,
+        "moyenne": 25.37142857142857,
+        "mediane": 21.0,
+        "nb_vides": 0
+      },
+      "date_start": {
+        "min": 20,
+        "max": 20,
+        "moyenne": 20.0,
+        "mediane": 20.0,
+        "nb_vides": 0
+      },
+      "date_end": {
+        "min": 20,
+        "max": 20,
+        "moyenne": 20.0,
+        "mediane": 20.0,
+        "nb_vides": 0
+      },
+      "tag": {
+        "min": 9,
+        "max": 37,
+        "moyenne": 18.771428571428572,
+        "mediane": 17.0,
+        "nb_vides": 0
+      },
+      "url": {
+        "min": 51,
+        "max": 79,
+        "moyenne": 60.77142857142857,
+        "mediane": 59.0,
+        "nb_vides": 0
+      }
+    },
+    "patterns_specifiques": {}
+  }
+}
