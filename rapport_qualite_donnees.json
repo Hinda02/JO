@@ -1,0 +1,2657 @@
+{
+  "athletes.csv": {
+    "nom_fichier": "athletes.csv",
+    "timestamp": "2026-01-16T11:27:01.097503",
+    "structure": {
+      "nombre_lignes": 11113,
+      "nombre_colonnes": 36,
+      "colonnes": [
+        "code",
+        "current",
+        "name",
+        "name_short",
+        "name_tv",
+        "gender",
+        "function",
+        "country_code",
+        "country",
+        "country_long",
+        "nationality",
+        "nationality_long",
+        "nationality_code",
+        "height",
+        "weight",
+        "disciplines",
+        "events",
+        "birth_date",
+        "birth_place",
+        "birth_country",
+        "residence_place",
+        "residence_country",
+        "nickname",
+        "hobbies",
+        "occupation",
+        "education",
+        "family",
+        "lang",
+        "coach",
+        "reason",
+        "hero",
+        "influence",
+        "philosophy",
+        "sporting_relatives",
+        "ritual",
+        "other_sports"
+      ],
+      "taille_memoire_mb": 23.849233627319336
+    },
+    "completude": {
+      "total_valeurs": 400068,
+      "total_manquantes": 101546,
+      "pourcentage_manquant_global": 25.382185028545145,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "ritual",
+          "nb_manquant": 10256,
+          "pourcentage": 92.29
+        },
+        {
+          "colonne": "other_sports",
+          "nb_manquant": 10053,
+          "pourcentage": 90.46
+        },
+        {
+          "colonne": "influence",
+          "nb_manquant": 8958,
+          "pourcentage": 80.61
+        },
+        {
+          "colonne": "sporting_relatives",
+          "nb_manquant": 8595,
+          "pourcentage": 77.34
+        },
+        {
+          "colonne": "philosophy",
+          "nb_manquant": 8330,
+          "pourcentage": 74.96
+        },
+        {
+          "colonne": "nickname",
+          "nb_manquant": 8147,
+          "pourcentage": 73.31
+        },
+        {
+          "colonne": "hero",
+          "nb_manquant": 7798,
+          "pourcentage": 70.17
+        },
+        {
+          "colonne": "hobbies",
+          "nb_manquant": 6906,
+          "pourcentage": 62.14
+        },
+        {
+          "colonne": "education",
+          "nb_manquant": 5575,
+          "pourcentage": 50.17
+        },
+        {
+          "colonne": "family",
+          "nb_manquant": 5552,
+          "pourcentage": 49.96
+        },
+        {
+          "colonne": "reason",
+          "nb_manquant": 5267,
+          "pourcentage": 47.39
+        },
+        {
+          "colonne": "residence_place",
+          "nb_manquant": 4309,
+          "pourcentage": 38.77
+        },
+        {
+          "colonne": "coach",
+          "nb_manquant": 2891,
+          "pourcentage": 26.01
+        },
+        {
+          "colonne": "residence_country",
+          "nb_manquant": 2825,
+          "pourcentage": 25.42
+        },
+        {
+          "colonne": "birth_place",
+          "nb_manquant": 2386,
+          "pourcentage": 21.47
+        },
+        {
+          "colonne": "birth_country",
+          "nb_manquant": 1638,
+          "pourcentage": 14.74
+        },
+        {
+          "colonne": "occupation",
+          "nb_manquant": 1529,
+          "pourcentage": 13.76
+        },
+        {
+          "colonne": "lang",
+          "nb_manquant": 508,
+          "pourcentage": 4.57
+        },
+        {
+          "colonne": "weight",
+          "nb_manquant": 5,
+          "pourcentage": 0.04
+        },
+        {
+          "colonne": "name_short",
+          "nb_manquant": 3,
+          "pourcentage": 0.03
+        },
+        {
+          "colonne": "name_tv",
+          "nb_manquant": 3,
+          "pourcentage": 0.03
+        },
+        {
+          "colonne": "nationality",
+          "nb_manquant": 3,
+          "pourcentage": 0.03
+        },
+        {
+          "colonne": "nationality_long",
+          "nb_manquant": 3,
+          "pourcentage": 0.03
+        },
+        {
+          "colonne": "nationality_code",
+          "nb_manquant": 3,
+          "pourcentage": 0.03
+        },
+        {
+          "colonne": "height",
+          "nb_manquant": 3,
+          "pourcentage": 0.03
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "country_code": 10907,
+        "nationality_code": 10915,
+        "residence_place": 8360,
+        "residence_country": 10935
+      }
+    },
+    "types_donnees": {
+      "code": {
+        "type": "int64",
+        "type_infer": "numeric"
+      },
+      "current": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      },
+      "name": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "name_short": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "name_tv": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "function": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nationality": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nationality_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nationality_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "height": {
+        "type": "float64",
+        "type_infer": "numeric"
+      },
+      "weight": {
+        "type": "float64",
+        "type_infer": "numeric"
+      },
+      "disciplines": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "events": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "birth_date": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "birth_place": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "birth_country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "residence_place": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "residence_country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nickname": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "hobbies": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "occupation": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "education": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "family": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "lang": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "coach": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "reason": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "hero": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "influence": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "philosophy": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sporting_relatives": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "ritual": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "other_sports": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "code": {
+        "nb_valeurs_uniques": 11113,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "current": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.017996940520111582,
+        "est_potentiellement_cle": false
+      },
+      "name": {
+        "nb_valeurs_uniques": 11103,
+        "pourcentage_unique": 99.91001529739944,
+        "est_potentiellement_cle": false
+      },
+      "name_short": {
+        "nb_valeurs_uniques": 10756,
+        "pourcentage_unique": 96.78754611716009,
+        "est_potentiellement_cle": false
+      },
+      "name_tv": {
+        "nb_valeurs_uniques": 11099,
+        "pourcentage_unique": 99.87402141635921,
+        "est_potentiellement_cle": false
+      },
+      "gender": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.017996940520111582,
+        "est_potentiellement_cle": false
+      },
+      "function": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.017996940520111582,
+        "est_potentiellement_cle": false
+      },
+      "country_code": {
+        "nb_valeurs_uniques": 206,
+        "pourcentage_unique": 1.8536848735714928,
+        "est_potentiellement_cle": false
+      },
+      "country": {
+        "nb_valeurs_uniques": 206,
+        "pourcentage_unique": 1.8536848735714928,
+        "est_potentiellement_cle": false
+      },
+      "country_long": {
+        "nb_valeurs_uniques": 206,
+        "pourcentage_unique": 1.8536848735714928,
+        "est_potentiellement_cle": false
+      },
+      "nationality": {
+        "nb_valeurs_uniques": 197,
+        "pourcentage_unique": 1.7726986412309909,
+        "est_potentiellement_cle": false
+      },
+      "nationality_long": {
+        "nb_valeurs_uniques": 197,
+        "pourcentage_unique": 1.7726986412309909,
+        "est_potentiellement_cle": false
+      },
+      "nationality_code": {
+        "nb_valeurs_uniques": 197,
+        "pourcentage_unique": 1.7726986412309909,
+        "est_potentiellement_cle": false
+      },
+      "height": {
+        "nb_valeurs_uniques": 74,
+        "pourcentage_unique": 0.6658867992441285,
+        "est_potentiellement_cle": false
+      },
+      "weight": {
+        "nb_valeurs_uniques": 55,
+        "pourcentage_unique": 0.49491586430306844,
+        "est_potentiellement_cle": false
+      },
+      "disciplines": {
+        "nb_valeurs_uniques": 52,
+        "pourcentage_unique": 0.4679204535229011,
+        "est_potentiellement_cle": false
+      },
+      "events": {
+        "nb_valeurs_uniques": 643,
+        "pourcentage_unique": 5.786016377215873,
+        "est_potentiellement_cle": false
+      },
+      "birth_date": {
+        "nb_valeurs_uniques": 5518,
+        "pourcentage_unique": 49.65355889498785,
+        "est_potentiellement_cle": false
+      },
+      "birth_place": {
+        "nb_valeurs_uniques": 4725,
+        "pourcentage_unique": 42.517771978763605,
+        "est_potentiellement_cle": false
+      },
+      "birth_country": {
+        "nb_valeurs_uniques": 205,
+        "pourcentage_unique": 1.844686403311437,
+        "est_potentiellement_cle": false
+      },
+      "residence_place": {
+        "nb_valeurs_uniques": 2752,
+        "pourcentage_unique": 24.763790155673533,
+        "est_potentiellement_cle": false
+      },
+      "residence_country": {
+        "nb_valeurs_uniques": 177,
+        "pourcentage_unique": 1.5927292360298748,
+        "est_potentiellement_cle": false
+      },
+      "nickname": {
+        "nb_valeurs_uniques": 2623,
+        "pourcentage_unique": 23.60298749212634,
+        "est_potentiellement_cle": false
+      },
+      "hobbies": {
+        "nb_valeurs_uniques": 3405,
+        "pourcentage_unique": 30.639791235489966,
+        "est_potentiellement_cle": false
+      },
+      "occupation": {
+        "nb_valeurs_uniques": 927,
+        "pourcentage_unique": 8.341581931071717,
+        "est_potentiellement_cle": false
+      },
+      "education": {
+        "nb_valeurs_uniques": 5352,
+        "pourcentage_unique": 48.15981283181859,
+        "est_potentiellement_cle": false
+      },
+      "family": {
+        "nb_valeurs_uniques": 5447,
+        "pourcentage_unique": 49.01466750652389,
+        "est_potentiellement_cle": false
+      },
+      "lang": {
+        "nb_valeurs_uniques": 738,
+        "pourcentage_unique": 6.640871051921174,
+        "est_potentiellement_cle": false
+      },
+      "coach": {
+        "nb_valeurs_uniques": 5651,
+        "pourcentage_unique": 50.85035543957527,
+        "est_potentiellement_cle": false
+      },
+      "reason": {
+        "nb_valeurs_uniques": 5734,
+        "pourcentage_unique": 51.59722847115991,
+        "est_potentiellement_cle": false
+      },
+      "hero": {
+        "nb_valeurs_uniques": 2456,
+        "pourcentage_unique": 22.100242958697024,
+        "est_potentiellement_cle": false
+      },
+      "influence": {
+        "nb_valeurs_uniques": 1529,
+        "pourcentage_unique": 13.758661027625305,
+        "est_potentiellement_cle": false
+      },
+      "philosophy": {
+        "nb_valeurs_uniques": 2761,
+        "pourcentage_unique": 24.844776388014036,
+        "est_potentiellement_cle": false
+      },
+      "sporting_relatives": {
+        "nb_valeurs_uniques": 2517,
+        "pourcentage_unique": 22.649149644560424,
+        "est_potentiellement_cle": false
+      },
+      "ritual": {
+        "nb_valeurs_uniques": 847,
+        "pourcentage_unique": 7.621704310267255,
+        "est_potentiellement_cle": false
+      },
+      "other_sports": {
+        "nb_valeurs_uniques": 1046,
+        "pourcentage_unique": 9.412399892018357,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "code": {
+        "min": 1532872.0,
+        "max": 9460001.0,
+        "moyenne": 1887418.3417619006,
+        "mediane": 1918840.0,
+        "ecart_type": 358800.5903087412,
+        "nb_zeros": 0
+      },
+      "height": {
+        "min": 0.0,
+        "max": 222.0,
+        "moyenne": 81.7988298829883,
+        "mediane": 0.0,
+        "ecart_type": 89.50824706487421,
+        "nb_zeros": 6032
+      },
+      "weight": {
+        "min": 0.0,
+        "max": 113.0,
+        "moyenne": 2.211919337414476,
+        "mediane": 0.0,
+        "ecart_type": 13.109607608143042,
+        "nb_zeros": 10792
+      }
+    },
+    "anomalies": [
+      "⚠️  Colonne 'height': 6032 valeurs à 0 (54.3%)",
+      "⚠️  Colonne 'weight': 10792 valeurs à 0 (97.1%)"
+    ],
+    "dates": [
+      {
+        "colonne": "birth_date",
+        "nb_dates_valides": 11113,
+        "date_min": "1954-12-01 00:00:00",
+        "date_max": "2012-08-11 00:00:00",
+        "nb_invalides": 0
+      }
+    ]
+  },
+  "coaches.csv": {
+    "nom_fichier": "coaches.csv",
+    "timestamp": "2026-01-16T11:27:01.297379",
+    "structure": {
+      "nombre_lignes": 974,
+      "nombre_colonnes": 12,
+      "colonnes": [
+        "code",
+        "current",
+        "name",
+        "gender",
+        "function",
+        "category",
+        "country_code",
+        "country",
+        "country_long",
+        "disciplines",
+        "events",
+        "birth_date"
+      ],
+      "taille_memoire_mb": 0.5918912887573242
+    },
+    "completude": {
+      "total_valeurs": 11688,
+      "total_manquantes": 594,
+      "pourcentage_manquant_global": 5.082135523613963,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "events",
+          "nb_manquant": 556,
+          "pourcentage": 57.08
+        },
+        {
+          "colonne": "birth_date",
+          "nb_manquant": 38,
+          "pourcentage": 3.9
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "country_code": 876
+      }
+    },
+    "types_donnees": {
+      "code": {
+        "type": "int64",
+        "type_infer": "numeric"
+      },
+      "current": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      },
+      "name": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "function": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "category": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "disciplines": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "events": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "birth_date": {
+        "type": "object",
+        "type_infer": "date"
+      }
+    },
+    "valeurs_uniques": {
+      "code": {
+        "nb_valeurs_uniques": 974,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "current": {
+        "nb_valeurs_uniques": 1,
+        "pourcentage_unique": 0.10266940451745381,
+        "est_potentiellement_cle": false
+      },
+      "name": {
+        "nb_valeurs_uniques": 974,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "gender": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.20533880903490762,
+        "est_potentiellement_cle": false
+      },
+      "function": {
+        "nb_valeurs_uniques": 5,
+        "pourcentage_unique": 0.5133470225872689,
+        "est_potentiellement_cle": false
+      },
+      "category": {
+        "nb_valeurs_uniques": 1,
+        "pourcentage_unique": 0.10266940451745381,
+        "est_potentiellement_cle": false
+      },
+      "country_code": {
+        "nb_valeurs_uniques": 98,
+        "pourcentage_unique": 10.061601642710473,
+        "est_potentiellement_cle": false
+      },
+      "country": {
+        "nb_valeurs_uniques": 98,
+        "pourcentage_unique": 10.061601642710473,
+        "est_potentiellement_cle": false
+      },
+      "country_long": {
+        "nb_valeurs_uniques": 98,
+        "pourcentage_unique": 10.061601642710473,
+        "est_potentiellement_cle": false
+      },
+      "disciplines": {
+        "nb_valeurs_uniques": 12,
+        "pourcentage_unique": 1.2320328542094456,
+        "est_potentiellement_cle": false
+      },
+      "events": {
+        "nb_valeurs_uniques": 4,
+        "pourcentage_unique": 0.41067761806981523,
+        "est_potentiellement_cle": false
+      },
+      "birth_date": {
+        "nb_valeurs_uniques": 892,
+        "pourcentage_unique": 91.58110882956879,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "code": {
+        "min": 1533246.0,
+        "max": 9450042.0,
+        "moyenne": 2031548.5492813142,
+        "mediane": 1928591.5,
+        "ecart_type": 907349.8547999777,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [
+      "⚠️  Colonne 'current' contient une seule valeur unique",
+      "⚠️  Colonne 'category' contient une seule valeur unique"
+    ],
+    "dates": [
+      {
+        "colonne": "birth_date",
+        "nb_dates_valides": 936,
+        "date_min": "1948-01-07 00:00:00",
+        "date_max": "2006-04-03 00:00:00",
+        "nb_invalides": 38
+      }
+    ]
+  },
+  "events.csv": {
+    "nom_fichier": "events.csv",
+    "timestamp": "2026-01-16T11:27:01.314701",
+    "structure": {
+      "nombre_lignes": 329,
+      "nombre_colonnes": 5,
+      "colonnes": [
+        "event",
+        "tag",
+        "sport",
+        "sport_code",
+        "sport_url"
+      ],
+      "taille_memoire_mb": 0.11818122863769531
+    },
+    "completude": {
+      "total_valeurs": 1645,
+      "total_manquantes": 0,
+      "pourcentage_manquant_global": 0.0,
+      "colonnes_avec_manquantes": [],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "tag": 284,
+        "sport_code": 284
+      }
+    },
+    "types_donnees": {
+      "event": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "tag": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sport": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sport_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sport_url": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "event": {
+        "nb_valeurs_uniques": 288,
+        "pourcentage_unique": 87.53799392097264,
+        "est_potentiellement_cle": false
+      },
+      "tag": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 13.677811550151976,
+        "est_potentiellement_cle": false
+      },
+      "sport": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 13.677811550151976,
+        "est_potentiellement_cle": false
+      },
+      "sport_code": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 13.677811550151976,
+        "est_potentiellement_cle": false
+      },
+      "sport_url": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 13.677811550151976,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {},
+    "anomalies": [],
+    "dates": []
+  },
+  "medallists.csv": {
+    "nom_fichier": "medallists.csv",
+    "timestamp": "2026-01-16T11:27:01.333528",
+    "structure": {
+      "nombre_lignes": 2315,
+      "nombre_colonnes": 21,
+      "colonnes": [
+        "medal_date",
+        "medal_type",
+        "medal_code",
+        "name",
+        "gender",
+        "country_code",
+        "country",
+        "country_long",
+        "nationality_code",
+        "nationality",
+        "nationality_long",
+        "team",
+        "team_gender",
+        "discipline",
+        "event",
+        "event_type",
+        "url_event",
+        "birth_date",
+        "code_athlete",
+        "code_team",
+        "is_medallist"
+      ],
+      "taille_memoire_mb": 2.6989965438842773
+    },
+    "completude": {
+      "total_valeurs": 48615,
+      "total_manquantes": 2305,
+      "pourcentage_manquant_global": 4.741334978915972,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "team",
+          "nb_manquant": 760,
+          "pourcentage": 32.83
+        },
+        {
+          "colonne": "team_gender",
+          "nb_manquant": 760,
+          "pourcentage": 32.83
+        },
+        {
+          "colonne": "code_team",
+          "nb_manquant": 760,
+          "pourcentage": 32.83
+        },
+        {
+          "colonne": "url_event",
+          "nb_manquant": 21,
+          "pourcentage": 0.91
+        },
+        {
+          "colonne": "medal_code",
+          "nb_manquant": 1,
+          "pourcentage": 0.04
+        },
+        {
+          "colonne": "nationality_code",
+          "nb_manquant": 1,
+          "pourcentage": 0.04
+        },
+        {
+          "colonne": "nationality",
+          "nb_manquant": 1,
+          "pourcentage": 0.04
+        },
+        {
+          "colonne": "nationality_long",
+          "nb_manquant": 1,
+          "pourcentage": 0.04
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "medal_code": 2311,
+        "country_code": 2223,
+        "nationality_code": 2222,
+        "code_athlete": 261,
+        "code_team": 2030
+      }
+    },
+    "types_donnees": {
+      "medal_date": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "medal_type": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "medal_code": {
+        "type": "float64",
+        "type_infer": "numeric"
+      },
+      "name": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nationality_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nationality": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "nationality_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team_gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "discipline": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event_type": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "url_event": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "birth_date": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "code_athlete": {
+        "type": "int64",
+        "type_infer": "numeric"
+      },
+      "code_team": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "is_medallist": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "medal_date": {
+        "nb_valeurs_uniques": 16,
+        "pourcentage_unique": 0.6911447084233261,
+        "est_potentiellement_cle": false
+      },
+      "medal_type": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 0.12958963282937366,
+        "est_potentiellement_cle": false
+      },
+      "medal_code": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 0.12958963282937366,
+        "est_potentiellement_cle": false
+      },
+      "name": {
+        "nb_valeurs_uniques": 2053,
+        "pourcentage_unique": 88.68250539956803,
+        "est_potentiellement_cle": false
+      },
+      "gender": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.08639308855291576,
+        "est_potentiellement_cle": false
+      },
+      "country_code": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 3.974082073434125,
+        "est_potentiellement_cle": false
+      },
+      "country": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 3.974082073434125,
+        "est_potentiellement_cle": false
+      },
+      "country_long": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 3.974082073434125,
+        "est_potentiellement_cle": false
+      },
+      "nationality_code": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 3.974082073434125,
+        "est_potentiellement_cle": false
+      },
+      "nationality": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 3.974082073434125,
+        "est_potentiellement_cle": false
+      },
+      "nationality_long": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 3.974082073434125,
+        "est_potentiellement_cle": false
+      },
+      "team": {
+        "nb_valeurs_uniques": 101,
+        "pourcentage_unique": 4.362850971922247,
+        "est_potentiellement_cle": false
+      },
+      "team_gender": {
+        "nb_valeurs_uniques": 4,
+        "pourcentage_unique": 0.17278617710583152,
+        "est_potentiellement_cle": false
+      },
+      "discipline": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 1.9438444924406046,
+        "est_potentiellement_cle": false
+      },
+      "event": {
+        "nb_valeurs_uniques": 288,
+        "pourcentage_unique": 12.44060475161987,
+        "est_potentiellement_cle": false
+      },
+      "event_type": {
+        "nb_valeurs_uniques": 6,
+        "pourcentage_unique": 0.2591792656587473,
+        "est_potentiellement_cle": false
+      },
+      "url_event": {
+        "nb_valeurs_uniques": 489,
+        "pourcentage_unique": 21.123110151187905,
+        "est_potentiellement_cle": false
+      },
+      "birth_date": {
+        "nb_valeurs_uniques": 1748,
+        "pourcentage_unique": 75.50755939524838,
+        "est_potentiellement_cle": false
+      },
+      "code_athlete": {
+        "nb_valeurs_uniques": 2054,
+        "pourcentage_unique": 88.7257019438445,
+        "est_potentiellement_cle": false
+      },
+      "code_team": {
+        "nb_valeurs_uniques": 284,
+        "pourcentage_unique": 12.267818574514038,
+        "est_potentiellement_cle": false
+      },
+      "is_medallist": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.08639308855291576,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "medal_code": {
+        "min": 1.0,
+        "max": 3.0,
+        "moyenne": 2.0233362143474505,
+        "mediane": 2.0,
+        "ecart_type": 0.8203897095793927,
+        "nb_zeros": 0
+      },
+      "code_athlete": {
+        "min": 1532872.0,
+        "max": 4980004.0,
+        "moyenne": 1893320.8090712742,
+        "mediane": 1924464.0,
+        "ecart_type": 262827.59206018737,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [],
+    "dates": [
+      {
+        "colonne": "medal_date",
+        "nb_dates_valides": 2315,
+        "date_min": "2024-07-27 00:00:00",
+        "date_max": "2024-08-11 00:00:00",
+        "nb_invalides": 0
+      },
+      {
+        "colonne": "birth_date",
+        "nb_dates_valides": 2315,
+        "date_min": "1965-11-14 00:00:00",
+        "date_max": "2010-05-12 00:00:00",
+        "nb_invalides": 0
+      }
+    ]
+  },
+  "medals.csv": {
+    "nom_fichier": "medals.csv",
+    "timestamp": "2026-01-16T11:27:01.375751",
+    "structure": {
+      "nombre_lignes": 1044,
+      "nombre_colonnes": 13,
+      "colonnes": [
+        "medal_type",
+        "medal_code",
+        "medal_date",
+        "name",
+        "gender",
+        "discipline",
+        "event",
+        "event_type",
+        "url_event",
+        "code",
+        "country_code",
+        "country",
+        "country_long"
+      ],
+      "taille_memoire_mb": 0.8488588333129883
+    },
+    "completude": {
+      "total_valeurs": 13572,
+      "total_manquantes": 10,
+      "pourcentage_manquant_global": 0.07368110816386678,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "url_event",
+          "nb_manquant": 9,
+          "pourcentage": 0.86
+        },
+        {
+          "colonne": "medal_code",
+          "nb_manquant": 1,
+          "pourcentage": 0.1
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "medal_code": 1040,
+        "code": 52,
+        "country_code": 952
+      }
+    },
+    "types_donnees": {
+      "medal_type": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "medal_code": {
+        "type": "float64",
+        "type_infer": "numeric"
+      },
+      "medal_date": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "name": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "discipline": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event_type": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "url_event": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "medal_type": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 0.28735632183908044,
+        "est_potentiellement_cle": false
+      },
+      "medal_code": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 0.28735632183908044,
+        "est_potentiellement_cle": false
+      },
+      "medal_date": {
+        "nb_valeurs_uniques": 16,
+        "pourcentage_unique": 1.532567049808429,
+        "est_potentiellement_cle": false
+      },
+      "name": {
+        "nb_valeurs_uniques": 810,
+        "pourcentage_unique": 77.58620689655173,
+        "est_potentiellement_cle": false
+      },
+      "gender": {
+        "nb_valeurs_uniques": 4,
+        "pourcentage_unique": 0.38314176245210724,
+        "est_potentiellement_cle": false
+      },
+      "discipline": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 4.310344827586207,
+        "est_potentiellement_cle": false
+      },
+      "event": {
+        "nb_valeurs_uniques": 288,
+        "pourcentage_unique": 27.586206896551722,
+        "est_potentiellement_cle": false
+      },
+      "event_type": {
+        "nb_valeurs_uniques": 6,
+        "pourcentage_unique": 0.5747126436781609,
+        "est_potentiellement_cle": false
+      },
+      "url_event": {
+        "nb_valeurs_uniques": 489,
+        "pourcentage_unique": 46.839080459770116,
+        "est_potentiellement_cle": false
+      },
+      "code": {
+        "nb_valeurs_uniques": 992,
+        "pourcentage_unique": 95.01915708812261,
+        "est_potentiellement_cle": false
+      },
+      "country_code": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 8.812260536398467,
+        "est_potentiellement_cle": false
+      },
+      "country": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 8.812260536398467,
+        "est_potentiellement_cle": false
+      },
+      "country_long": {
+        "nb_valeurs_uniques": 92,
+        "pourcentage_unique": 8.812260536398467,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "medal_code": {
+        "min": 1.0,
+        "max": 3.0,
+        "moyenne": 2.052732502396932,
+        "mediane": 2.0,
+        "ecart_type": 0.8255165964564939,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [],
+    "dates": [
+      {
+        "colonne": "medal_date",
+        "nb_dates_valides": 1044,
+        "date_min": "2024-07-27 00:00:00",
+        "date_max": "2024-08-11 00:00:00",
+        "nb_invalides": 0
+      }
+    ]
+  },
+  "nocs.csv": {
+    "nom_fichier": "nocs.csv",
+    "timestamp": "2026-01-16T11:27:01.396326",
+    "structure": {
+      "nombre_lignes": 224,
+      "nombre_colonnes": 5,
+      "colonnes": [
+        "code",
+        "country",
+        "country_long",
+        "tag",
+        "note"
+      ],
+      "taille_memoire_mb": 0.06779956817626953
+    },
+    "completude": {
+      "total_valeurs": 1120,
+      "total_manquantes": 0,
+      "pourcentage_manquant_global": 0.0,
+      "colonnes_avec_manquantes": [],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "tag": 1
+      }
+    },
+    "types_donnees": {
+      "code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "tag": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "note": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "code": {
+        "nb_valeurs_uniques": 224,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "country": {
+        "nb_valeurs_uniques": 223,
+        "pourcentage_unique": 99.55357142857143,
+        "est_potentiellement_cle": false
+      },
+      "country_long": {
+        "nb_valeurs_uniques": 223,
+        "pourcentage_unique": 99.55357142857143,
+        "est_potentiellement_cle": false
+      },
+      "tag": {
+        "nb_valeurs_uniques": 223,
+        "pourcentage_unique": 99.55357142857143,
+        "est_potentiellement_cle": false
+      },
+      "note": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 1.3392857142857142,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {},
+    "anomalies": [],
+    "dates": []
+  },
+  "schedules.csv": {
+    "nom_fichier": "schedules.csv",
+    "timestamp": "2026-01-16T11:27:01.417646",
+    "structure": {
+      "nombre_lignes": 3895,
+      "nombre_colonnes": 16,
+      "colonnes": [
+        "start_date",
+        "end_date",
+        "day",
+        "status",
+        "discipline",
+        "discipline_code",
+        "event",
+        "event_medal",
+        "phase",
+        "gender",
+        "event_type",
+        "venue",
+        "venue_code",
+        "location_description",
+        "location_code",
+        "url"
+      ],
+      "taille_memoire_mb": 4.064151763916016
+    },
+    "completude": {
+      "total_valeurs": 62320,
+      "total_manquantes": 103,
+      "pourcentage_manquant_global": 0.16527599486521183,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "url",
+          "nb_manquant": 85,
+          "pourcentage": 2.18
+        },
+        {
+          "colonne": "end_date",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "event",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "phase",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "gender",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "event_type",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "venue",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "venue_code",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "location_description",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        },
+        {
+          "colonne": "location_code",
+          "nb_manquant": 2,
+          "pourcentage": 0.05
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 8,
+      "nb_total_avec_duplicats": 13,
+      "pourcentage": 0.20539152759948653,
+      "doublons_sur_colonnes_id": {
+        "discipline_code": 3849,
+        "venue_code": 3854,
+        "location_code": 3803
+      }
+    },
+    "types_donnees": {
+      "start_date": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "end_date": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "day": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "status": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "discipline": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "discipline_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event_medal": {
+        "type": "int64",
+        "type_infer": "numeric"
+      },
+      "phase": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "event_type": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "venue": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "venue_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "location_description": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "location_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "url": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "start_date": {
+        "nb_valeurs_uniques": 2130,
+        "pourcentage_unique": 54.685494223363285,
+        "est_potentiellement_cle": false
+      },
+      "end_date": {
+        "nb_valeurs_uniques": 2501,
+        "pourcentage_unique": 64.21052631578948,
+        "est_potentiellement_cle": false
+      },
+      "day": {
+        "nb_valeurs_uniques": 19,
+        "pourcentage_unique": 0.4878048780487805,
+        "est_potentiellement_cle": false
+      },
+      "status": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 0.07702182284980745,
+        "est_potentiellement_cle": false
+      },
+      "discipline": {
+        "nb_valeurs_uniques": 47,
+        "pourcentage_unique": 1.2066752246469832,
+        "est_potentiellement_cle": false
+      },
+      "discipline_code": {
+        "nb_valeurs_uniques": 46,
+        "pourcentage_unique": 1.1810012836970476,
+        "est_potentiellement_cle": false
+      },
+      "event": {
+        "nb_valeurs_uniques": 288,
+        "pourcentage_unique": 7.394094993581516,
+        "est_potentiellement_cle": false
+      },
+      "event_medal": {
+        "nb_valeurs_uniques": 3,
+        "pourcentage_unique": 0.07702182284980745,
+        "est_potentiellement_cle": false
+      },
+      "phase": {
+        "nb_valeurs_uniques": 1161,
+        "pourcentage_unique": 29.80744544287548,
+        "est_potentiellement_cle": false
+      },
+      "gender": {
+        "nb_valeurs_uniques": 4,
+        "pourcentage_unique": 0.10269576379974327,
+        "est_potentiellement_cle": false
+      },
+      "event_type": {
+        "nb_valeurs_uniques": 6,
+        "pourcentage_unique": 0.1540436456996149,
+        "est_potentiellement_cle": false
+      },
+      "venue": {
+        "nb_valeurs_uniques": 40,
+        "pourcentage_unique": 1.0269576379974326,
+        "est_potentiellement_cle": false
+      },
+      "venue_code": {
+        "nb_valeurs_uniques": 40,
+        "pourcentage_unique": 1.0269576379974326,
+        "est_potentiellement_cle": false
+      },
+      "location_description": {
+        "nb_valeurs_uniques": 91,
+        "pourcentage_unique": 2.336328626444159,
+        "est_potentiellement_cle": false
+      },
+      "location_code": {
+        "nb_valeurs_uniques": 91,
+        "pourcentage_unique": 2.336328626444159,
+        "est_potentiellement_cle": false
+      },
+      "url": {
+        "nb_valeurs_uniques": 3638,
+        "pourcentage_unique": 93.40179717586649,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "event_medal": {
+        "min": 0.0,
+        "max": 3.0,
+        "moyenne": 0.21386392811296534,
+        "mediane": 0.0,
+        "ecart_type": 0.6534746424625254,
+        "nb_zeros": 3398
+      }
+    },
+    "anomalies": [],
+    "dates": [
+      {
+        "colonne": "start_date",
+        "nb_dates_valides": 3895,
+        "date_min": "2024-07-24 15:00:00+02:00",
+        "date_max": "2024-08-11 21:00:00+02:00",
+        "nb_invalides": 0
+      },
+      {
+        "colonne": "end_date",
+        "nb_dates_valides": 3893,
+        "date_min": "2024-07-24 15:46:00+02:00",
+        "date_max": "2024-08-11 17:15:00+02:00",
+        "nb_invalides": 2
+      }
+    ]
+  },
+  "schedules_preliminary.csv": {
+    "nom_fichier": "schedules_preliminary.csv",
+    "timestamp": "2026-01-16T11:27:01.486037",
+    "structure": {
+      "nombre_lignes": 2298,
+      "nombre_colonnes": 18,
+      "colonnes": [
+        "date_start_utc",
+        "date_end_utc",
+        "estimated",
+        "estimated_start",
+        "start_text",
+        "medal",
+        "venue_code",
+        "description",
+        "venue_code_other",
+        "discription_other",
+        "team_1_code",
+        "team_1",
+        "team_2_code",
+        "team_2",
+        "tag",
+        "sport",
+        "sport_code",
+        "sport_url"
+      ],
+      "taille_memoire_mb": 1.8349151611328125
+    },
+    "completude": {
+      "total_valeurs": 41364,
+      "total_manquantes": 16962,
+      "pourcentage_manquant_global": 41.00667246881346,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "start_text",
+          "nb_manquant": 2296,
+          "pourcentage": 99.91
+        },
+        {
+          "colonne": "venue_code_other",
+          "nb_manquant": 2216,
+          "pourcentage": 96.43
+        },
+        {
+          "colonne": "discription_other",
+          "nb_manquant": 2216,
+          "pourcentage": 96.43
+        },
+        {
+          "colonne": "team_1_code",
+          "nb_manquant": 2086,
+          "pourcentage": 90.77
+        },
+        {
+          "colonne": "team_1",
+          "nb_manquant": 2086,
+          "pourcentage": 90.77
+        },
+        {
+          "colonne": "team_2_code",
+          "nb_manquant": 2086,
+          "pourcentage": 90.77
+        },
+        {
+          "colonne": "team_2",
+          "nb_manquant": 2086,
+          "pourcentage": 90.77
+        },
+        {
+          "colonne": "medal",
+          "nb_manquant": 1808,
+          "pourcentage": 78.68
+        },
+        {
+          "colonne": "venue_code",
+          "nb_manquant": 82,
+          "pourcentage": 3.57
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 292,
+      "nb_total_avec_duplicats": 400,
+      "pourcentage": 12.706701479547434,
+      "doublons_sur_colonnes_id": {
+        "venue_code": 2262,
+        "venue_code_other": 2287,
+        "team_1_code": 2254,
+        "team_2_code": 2254,
+        "tag": 2253,
+        "sport_code": 2253
+      }
+    },
+    "types_donnees": {
+      "date_start_utc": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "date_end_utc": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "estimated": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      },
+      "estimated_start": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      },
+      "start_text": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "medal": {
+        "type": "float64",
+        "type_infer": "numeric"
+      },
+      "venue_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "description": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "venue_code_other": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "discription_other": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team_1_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team_1": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team_2_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team_2": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "tag": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sport": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sport_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sport_url": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "date_start_utc": {
+        "nb_valeurs_uniques": 1315,
+        "pourcentage_unique": 57.2236727589208,
+        "est_potentiellement_cle": false
+      },
+      "date_end_utc": {
+        "nb_valeurs_uniques": 1507,
+        "pourcentage_unique": 65.57876414273281,
+        "est_potentiellement_cle": false
+      },
+      "estimated": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.08703220191470844,
+        "est_potentiellement_cle": false
+      },
+      "estimated_start": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.08703220191470844,
+        "est_potentiellement_cle": false
+      },
+      "start_text": {
+        "nb_valeurs_uniques": 1,
+        "pourcentage_unique": 0.04351610095735422,
+        "est_potentiellement_cle": false
+      },
+      "medal": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.08703220191470844,
+        "est_potentiellement_cle": false
+      },
+      "venue_code": {
+        "nb_valeurs_uniques": 35,
+        "pourcentage_unique": 1.5230635335073976,
+        "est_potentiellement_cle": false
+      },
+      "description": {
+        "nb_valeurs_uniques": 74,
+        "pourcentage_unique": 3.2201914708442123,
+        "est_potentiellement_cle": false
+      },
+      "venue_code_other": {
+        "nb_valeurs_uniques": 10,
+        "pourcentage_unique": 0.4351610095735422,
+        "est_potentiellement_cle": false
+      },
+      "discription_other": {
+        "nb_valeurs_uniques": 10,
+        "pourcentage_unique": 0.4351610095735422,
+        "est_potentiellement_cle": false
+      },
+      "team_1_code": {
+        "nb_valeurs_uniques": 43,
+        "pourcentage_unique": 1.8711923411662315,
+        "est_potentiellement_cle": false
+      },
+      "team_1": {
+        "nb_valeurs_uniques": 43,
+        "pourcentage_unique": 1.8711923411662315,
+        "est_potentiellement_cle": false
+      },
+      "team_2_code": {
+        "nb_valeurs_uniques": 43,
+        "pourcentage_unique": 1.8711923411662315,
+        "est_potentiellement_cle": false
+      },
+      "team_2": {
+        "nb_valeurs_uniques": 43,
+        "pourcentage_unique": 1.8711923411662315,
+        "est_potentiellement_cle": false
+      },
+      "tag": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 1.95822454308094,
+        "est_potentiellement_cle": false
+      },
+      "sport": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 1.95822454308094,
+        "est_potentiellement_cle": false
+      },
+      "sport_code": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 1.95822454308094,
+        "est_potentiellement_cle": false
+      },
+      "sport_url": {
+        "nb_valeurs_uniques": 45,
+        "pourcentage_unique": 1.95822454308094,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "medal": {
+        "min": 1.0,
+        "max": 3.0,
+        "moyenne": 1.6081632653061224,
+        "mediane": 1.0,
+        "ecart_type": 0.9209750178560102,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [
+      "⚠️  Colonne 'start_text' contient une seule valeur unique"
+    ],
+    "dates": [
+      {
+        "colonne": "date_start_utc",
+        "nb_dates_valides": 2298,
+        "date_min": "2024-07-24 13:00:00+00:00",
+        "date_max": "2024-08-11 13:30:00+00:00",
+        "nb_invalides": 0
+      },
+      {
+        "colonne": "date_end_utc",
+        "nb_dates_valides": 2298,
+        "date_min": "2024-07-24 14:00:00+00:00",
+        "date_max": "2024-08-11 15:30:00+00:00",
+        "nb_invalides": 0
+      }
+    ]
+  },
+  "teams.csv": {
+    "nom_fichier": "teams.csv",
+    "timestamp": "2026-01-16T11:27:01.528873",
+    "structure": {
+      "nombre_lignes": 1698,
+      "nombre_colonnes": 16,
+      "colonnes": [
+        "code",
+        "current",
+        "team",
+        "team_gender",
+        "country_code",
+        "country",
+        "country_long",
+        "discipline",
+        "disciplines_code",
+        "events",
+        "athletes",
+        "coaches",
+        "athletes_codes",
+        "num_athletes",
+        "coaches_codes",
+        "num_coaches"
+      ],
+      "taille_memoire_mb": 1.5299663543701172
+    },
+    "completude": {
+      "total_valeurs": 27168,
+      "total_manquantes": 4686,
+      "pourcentage_manquant_global": 17.248233215547703,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "coaches",
+          "nb_manquant": 1452,
+          "pourcentage": 85.51
+        },
+        {
+          "colonne": "coaches_codes",
+          "nb_manquant": 1452,
+          "pourcentage": 85.51
+        },
+        {
+          "colonne": "num_coaches",
+          "nb_manquant": 1452,
+          "pourcentage": 85.51
+        },
+        {
+          "colonne": "events",
+          "nb_manquant": 321,
+          "pourcentage": 18.9
+        },
+        {
+          "colonne": "athletes",
+          "nb_manquant": 3,
+          "pourcentage": 0.18
+        },
+        {
+          "colonne": "athletes_codes",
+          "nb_manquant": 3,
+          "pourcentage": 0.18
+        },
+        {
+          "colonne": "num_athletes",
+          "nb_manquant": 3,
+          "pourcentage": 0.18
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "country_code": 1594,
+        "disciplines_code": 1670,
+        "athletes_codes": 86,
+        "coaches_codes": 1458
+      }
+    },
+    "types_donnees": {
+      "code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "current": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      },
+      "team": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "team_gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "country_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "discipline": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "disciplines_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "events": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "athletes": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "coaches": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "athletes_codes": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "num_athletes": {
+        "type": "float64",
+        "type_infer": "numeric"
+      },
+      "coaches_codes": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "num_coaches": {
+        "type": "float64",
+        "type_infer": "numeric"
+      }
+    },
+    "valeurs_uniques": {
+      "code": {
+        "nb_valeurs_uniques": 1698,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "current": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.11778563015312131,
+        "est_potentiellement_cle": false
+      },
+      "team": {
+        "nb_valeurs_uniques": 494,
+        "pourcentage_unique": 29.093050647820967,
+        "est_potentiellement_cle": false
+      },
+      "team_gender": {
+        "nb_valeurs_uniques": 4,
+        "pourcentage_unique": 0.23557126030624262,
+        "est_potentiellement_cle": false
+      },
+      "country_code": {
+        "nb_valeurs_uniques": 104,
+        "pourcentage_unique": 6.124852767962309,
+        "est_potentiellement_cle": false
+      },
+      "country": {
+        "nb_valeurs_uniques": 104,
+        "pourcentage_unique": 6.124852767962309,
+        "est_potentiellement_cle": false
+      },
+      "country_long": {
+        "nb_valeurs_uniques": 104,
+        "pourcentage_unique": 6.124852767962309,
+        "est_potentiellement_cle": false
+      },
+      "discipline": {
+        "nb_valeurs_uniques": 28,
+        "pourcentage_unique": 1.6489988221436984,
+        "est_potentiellement_cle": false
+      },
+      "disciplines_code": {
+        "nb_valeurs_uniques": 28,
+        "pourcentage_unique": 1.6489988221436984,
+        "est_potentiellement_cle": false
+      },
+      "events": {
+        "nb_valeurs_uniques": 69,
+        "pourcentage_unique": 4.063604240282685,
+        "est_potentiellement_cle": false
+      },
+      "athletes": {
+        "nb_valeurs_uniques": 1603,
+        "pourcentage_unique": 94.40518256772674,
+        "est_potentiellement_cle": false
+      },
+      "coaches": {
+        "nb_valeurs_uniques": 239,
+        "pourcentage_unique": 14.075382803297998,
+        "est_potentiellement_cle": false
+      },
+      "athletes_codes": {
+        "nb_valeurs_uniques": 1611,
+        "pourcentage_unique": 94.87632508833921,
+        "est_potentiellement_cle": false
+      },
+      "num_athletes": {
+        "nb_valeurs_uniques": 21,
+        "pourcentage_unique": 1.2367491166077738,
+        "est_potentiellement_cle": false
+      },
+      "coaches_codes": {
+        "nb_valeurs_uniques": 239,
+        "pourcentage_unique": 14.075382803297998,
+        "est_potentiellement_cle": false
+      },
+      "num_coaches": {
+        "nb_valeurs_uniques": 12,
+        "pourcentage_unique": 0.7067137809187279,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "num_athletes": {
+        "min": 2.0,
+        "max": 22.0,
+        "moyenne": 4.606489675516224,
+        "mediane": 4.0,
+        "ecart_type": 3.8915742098686223,
+        "nb_zeros": 0
+      },
+      "num_coaches": {
+        "min": 1.0,
+        "max": 12.0,
+        "moyenne": 4.365853658536586,
+        "mediane": 4.0,
+        "ecart_type": 2.263348765798064,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [],
+    "dates": []
+  },
+  "technical_officials.csv": {
+    "nom_fichier": "technical_officials.csv",
+    "timestamp": "2026-01-16T11:27:01.556134",
+    "structure": {
+      "nombre_lignes": 1021,
+      "nombre_colonnes": 11,
+      "colonnes": [
+        "code",
+        "current",
+        "name",
+        "gender",
+        "function",
+        "category",
+        "organisation_code",
+        "organisation",
+        "organisation_long",
+        "disciplines",
+        "birth_date"
+      ],
+      "taille_memoire_mb": 0.5526313781738281
+    },
+    "completude": {
+      "total_valeurs": 11231,
+      "total_manquantes": 1002,
+      "pourcentage_manquant_global": 8.921734484907844,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "birth_date",
+          "nb_manquant": 1002,
+          "pourcentage": 98.14
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "organisation_code": 914
+      }
+    },
+    "types_donnees": {
+      "code": {
+        "type": "int64",
+        "type_infer": "numeric"
+      },
+      "current": {
+        "type": "bool",
+        "type_infer": "categorical/text"
+      },
+      "name": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "gender": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "function": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "category": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "organisation_code": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "organisation": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "organisation_long": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "disciplines": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "birth_date": {
+        "type": "object",
+        "type_infer": "date"
+      }
+    },
+    "valeurs_uniques": {
+      "code": {
+        "nb_valeurs_uniques": 1021,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "current": {
+        "nb_valeurs_uniques": 1,
+        "pourcentage_unique": 0.0979431929480901,
+        "est_potentiellement_cle": false
+      },
+      "name": {
+        "nb_valeurs_uniques": 1021,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "gender": {
+        "nb_valeurs_uniques": 2,
+        "pourcentage_unique": 0.1958863858961802,
+        "est_potentiellement_cle": false
+      },
+      "function": {
+        "nb_valeurs_uniques": 19,
+        "pourcentage_unique": 1.860920666013712,
+        "est_potentiellement_cle": false
+      },
+      "category": {
+        "nb_valeurs_uniques": 1,
+        "pourcentage_unique": 0.0979431929480901,
+        "est_potentiellement_cle": false
+      },
+      "organisation_code": {
+        "nb_valeurs_uniques": 107,
+        "pourcentage_unique": 10.479921645445641,
+        "est_potentiellement_cle": false
+      },
+      "organisation": {
+        "nb_valeurs_uniques": 107,
+        "pourcentage_unique": 10.479921645445641,
+        "est_potentiellement_cle": false
+      },
+      "organisation_long": {
+        "nb_valeurs_uniques": 107,
+        "pourcentage_unique": 10.479921645445641,
+        "est_potentiellement_cle": false
+      },
+      "disciplines": {
+        "nb_valeurs_uniques": 28,
+        "pourcentage_unique": 2.742409402546523,
+        "est_potentiellement_cle": false
+      },
+      "birth_date": {
+        "nb_valeurs_uniques": 19,
+        "pourcentage_unique": 1.860920666013712,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "code": {
+        "min": 1536406.0,
+        "max": 4968543.0,
+        "moyenne": 2177642.306562194,
+        "mediane": 2005711.0,
+        "ecart_type": 394026.4679415573,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [
+      "⚠️  Colonne 'current' contient une seule valeur unique",
+      "⚠️  Colonne 'category' contient une seule valeur unique"
+    ],
+    "dates": [
+      {
+        "colonne": "birth_date",
+        "nb_dates_valides": 19,
+        "date_min": "1951-12-04 00:00:00",
+        "date_max": "1993-10-01 00:00:00",
+        "nb_invalides": 1002
+      }
+    ]
+  },
+  "torch_route.csv": {
+    "nom_fichier": "torch_route.csv",
+    "timestamp": "2026-01-16T11:27:01.572467",
+    "structure": {
+      "nombre_lignes": 73,
+      "nombre_colonnes": 7,
+      "colonnes": [
+        "title",
+        "city",
+        "date_start",
+        "date_end",
+        "tag",
+        "url",
+        "stage_number"
+      ],
+      "taille_memoire_mb": 0.03626251220703125
+    },
+    "completude": {
+      "total_valeurs": 511,
+      "total_manquantes": 6,
+      "pourcentage_manquant_global": 1.1741682974559686,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "stage_number",
+          "nb_manquant": 5,
+          "pourcentage": 6.85
+        },
+        {
+          "colonne": "city",
+          "nb_manquant": 1,
+          "pourcentage": 1.37
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {
+        "stage_number": 4
+      }
+    },
+    "types_donnees": {
+      "title": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "city": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "date_start": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "date_end": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "tag": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "url": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "stage_number": {
+        "type": "float64",
+        "type_infer": "numeric"
+      }
+    },
+    "valeurs_uniques": {
+      "title": {
+        "nb_valeurs_uniques": 73,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "city": {
+        "nb_valeurs_uniques": 70,
+        "pourcentage_unique": 95.8904109589041,
+        "est_potentiellement_cle": false
+      },
+      "date_start": {
+        "nb_valeurs_uniques": 73,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "date_end": {
+        "nb_valeurs_uniques": 73,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "tag": {
+        "nb_valeurs_uniques": 73,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "url": {
+        "nb_valeurs_uniques": 73,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "stage_number": {
+        "nb_valeurs_uniques": 68,
+        "pourcentage_unique": 93.15068493150685,
+        "est_potentiellement_cle": false
+      }
+    },
+    "statistiques": {
+      "stage_number": {
+        "min": 1.0,
+        "max": 68.0,
+        "moyenne": 34.5,
+        "mediane": 34.5,
+        "ecart_type": 19.77371993328519,
+        "nb_zeros": 0
+      }
+    },
+    "anomalies": [],
+    "dates": [
+      {
+        "colonne": "date_start",
+        "nb_dates_valides": 73,
+        "date_min": "2024-04-15 22:01:00+00:00",
+        "date_max": "2024-07-25 22:01:00+00:00",
+        "nb_invalides": 0
+      },
+      {
+        "colonne": "date_end",
+        "nb_dates_valides": 73,
+        "date_min": "2024-04-16 10:01:00+00:00",
+        "date_max": "2024-07-26 21:59:00+00:00",
+        "nb_invalides": 0
+      }
+    ]
+  },
+  "venues.csv": {
+    "nom_fichier": "venues.csv",
+    "timestamp": "2026-01-16T11:27:01.583225",
+    "structure": {
+      "nombre_lignes": 35,
+      "nombre_colonnes": 6,
+      "colonnes": [
+        "venue",
+        "sports",
+        "date_start",
+        "date_end",
+        "tag",
+        "url"
+      ],
+      "taille_memoire_mb": 0.016989707946777344
+    },
+    "completude": {
+      "total_valeurs": 210,
+      "total_manquantes": 2,
+      "pourcentage_manquant_global": 0.9523809523809524,
+      "colonnes_avec_manquantes": [
+        {
+          "colonne": "date_start",
+          "nb_manquant": 1,
+          "pourcentage": 2.86
+        },
+        {
+          "colonne": "date_end",
+          "nb_manquant": 1,
+          "pourcentage": 2.86
+        }
+      ],
+      "chaines_vides": {}
+    },
+    "doublons": {
+      "nb_lignes_dupliquees": 0,
+      "nb_total_avec_duplicats": 0,
+      "pourcentage": 0.0,
+      "doublons_sur_colonnes_id": {}
+    },
+    "types_donnees": {
+      "venue": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "sports": {
+        "type": "object",
+        "type_infer": "json/list"
+      },
+      "date_start": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "date_end": {
+        "type": "object",
+        "type_infer": "date"
+      },
+      "tag": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      },
+      "url": {
+        "type": "object",
+        "type_infer": "categorical/text"
+      }
+    },
+    "valeurs_uniques": {
+      "venue": {
+        "nb_valeurs_uniques": 35,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "sports": {
+        "nb_valeurs_uniques": 29,
+        "pourcentage_unique": 82.85714285714286,
+        "est_potentiellement_cle": false
+      },
+      "date_start": {
+        "nb_valeurs_uniques": 25,
+        "pourcentage_unique": 71.42857142857143,
+        "est_potentiellement_cle": false
+      },
+      "date_end": {
+        "nb_valeurs_uniques": 33,
+        "pourcentage_unique": 94.28571428571428,
+        "est_potentiellement_cle": false
+      },
+      "tag": {
+        "nb_valeurs_uniques": 35,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      },
+      "url": {
+        "nb_valeurs_uniques": 35,
+        "pourcentage_unique": 100.0,
+        "est_potentiellement_cle": true
+      }
+    },
+    "statistiques": {},
+    "anomalies": [],
+    "dates": [
+      {
+        "colonne": "date_start",
+        "nb_dates_valides": 34,
+        "date_min": "2024-07-24 13:30:00+00:00",
+        "date_max": "2024-08-10 06:00:00+00:00",
+        "nb_invalides": 1
+      },
+      {
+        "colonne": "date_end",
+        "nb_dates_valides": 34,
+        "date_min": "2024-07-29 14:30:00+00:00",
+        "date_max": "2024-08-31 21:00:00+00:00",
+        "nb_invalides": 1
+      }
+    ]
+  }
+}
